@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"Website Development Business/Workflow/React.md","id":"be36f57ff65e7d4f","x":-440,"y":-300,"width":760,"height":1060},
+		{"type":"file","file":"Website Development Business/Workflow/Reacts Context API.md","id":"ed4ae8dcf424b1ec","x":920,"y":-720,"width":1280,"height":1280,"color":"4"}
+	],
+	"edges":[
+		{"id":"6b564872e5f566e2","fromNode":"be36f57ff65e7d4f","fromSide":"right","toNode":"ed4ae8dcf424b1ec","toSide":"left"}
+	]
+}

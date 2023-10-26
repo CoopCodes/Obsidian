@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "4d355e4408c4e530",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee87dd9e42d4cfdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0e111a5c7bdeca3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3efd04e2913da9c2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Bathroom Wireframe.md"
+              }
+            }
+          },
+          {
+            "id": "1c366c16b9ce66e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rooms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "055dcf3f402867ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Widgitable Features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea99f839c5e5be04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Widgitable Features.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c72073dea649bd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e31c80f8f947fb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd9aa6041fa884ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b261654702c21bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92aa40b3a22cc2de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82a56b263cf744b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9aea0a540924c8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1804b66f11746f0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Widgitable Features.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87aab3a8b9117208",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Widgitable Features.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ad2821ba4a3068d9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1ded52d4b698821a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Widgitable Features.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "055dcf3f402867ed",
+  "lastOpenFiles": [
+    "Chat.md",
+    "Rooms.md",
+    "Widgitable Features.md",
+    "Thumogotchi Features.md",
+    "Monster Attributes.md",
+    "Excalidraw/Bathroom Wireframe.md",
+    "Excalidraw/Monster Customization.md",
+    "Pou Features.md",
+    "Excalidraw"
+  ]
+}
