@@ -20,6 +20,7 @@
   "tagInfo": "pininfo.md",
   "mergeRedundantCombination": false,
   "useVirtualTag": false,
+  "useFrontmatterTagsForNewNotes": false,
   "doNotSimplifyTags": false,
   "overrideTagClicking": false,
   "useMultiPaneList": false,
