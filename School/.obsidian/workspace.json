@@ -13,13 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tuesday Week 6.md",
+                "file": "School Captain Speech - Formal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29ccbd71bbc74d88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT_MD/chats/20231031220533.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cd0fb1b5824f83e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "ff1d147ab24b8590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b8c121187213c989",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School Captain Speech - Informal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "70768663bb583bdb",
@@ -102,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tuesday Week 6.md",
+                "file": "School Captain Speech - Informal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tuesday Week 6.md",
+                "file": "School Captain Speech - Informal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tuesday Week 6.md"
+                "file": "School Captain Speech - Informal.md"
               }
             }
           },
@@ -175,15 +221,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "127a6ff7fabe8cdc",
+  "active": "b8c121187213c989",
   "lastOpenFiles": [
-    "Food Safety Course.md",
+    "School Captain Speech - Formal.md",
+    "School Captain Speech - Informal.md",
+    "ChatGPT_MD/chats/20231031220533.md",
+    "Ideas.md",
     "Tuesday Week 6.md",
+    "Food Safety Course.md",
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",
     "Art Intro.md",
-    "School Captain Speech.md",
     "Texts - Unit 1.md",
     "IA1 Event Management.md",
     "Excalidraw/Drawing 2023-10-27 09.23.34.excalidraw.md",
@@ -206,7 +255,6 @@
     "Pasted image 20231009174417.png",
     "Chat.md",
     "Exam Mistakes.md",
-    "Mathematics.md",
     "Untitled"
   ]
 }
