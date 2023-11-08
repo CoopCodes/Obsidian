@@ -62,9 +62,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95fea8d03bbcb2c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Photography.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ae9b01036b63875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graphic Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9993496ac94b361c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sketching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1a8ea3d7435cb5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graffiti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b01e49dfab97d7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Art Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f91e2deb68d46ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Food Safety Course.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -127,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School Captain Speech - Informal.md",
+                "file": "Food Safety Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School Captain Speech - Informal.md",
+                "file": "Food Safety Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +260,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School Captain Speech - Informal.md"
+                "file": "Food Safety Course.md"
               }
             }
           },
@@ -221,10 +293,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b8c121187213c989",
+  "active": "f91e2deb68d46ae9",
   "lastOpenFiles": [
-    "School Captain Speech - Formal.md",
+    "English Intro.md",
+    "English.md",
+    "Art Types.md",
+    "Untitled 2.md",
+    "Art Intro.md",
+    "Scrapbooking.md",
+    "Graffiti.md",
+    "Sketching.md",
+    "Graphic Design.md",
+    "Photography.md",
     "School Captain Speech - Informal.md",
+    "School Captain Speech - Formal.md",
     "ChatGPT_MD/chats/20231031220533.md",
     "Ideas.md",
     "Tuesday Week 6.md",
@@ -232,11 +314,9 @@
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",
-    "Art Intro.md",
     "Texts - Unit 1.md",
     "IA1 Event Management.md",
     "Excalidraw/Drawing 2023-10-27 09.23.34.excalidraw.md",
-    "English Intro.md",
     "Goals.md",
     "Help.md",
     "Business Criteria.md",
@@ -244,17 +324,9 @@
     "ChatGPT_MD/chats/20231019120942.md",
     "Math.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "Business/Topic 2 Marketing.md",
-    "Business/Role and influences of marketing.md",
-    "Business/Business.md",
-    "ChatGPT_MD/chats/20231010102323.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
-    "English.md",
     "Pasted image 20231009174417.png",
-    "Chat.md",
-    "Exam Mistakes.md",
     "Untitled"
   ]
 }

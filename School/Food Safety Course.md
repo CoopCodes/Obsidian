@@ -58,3 +58,51 @@ What issues invlolving your own personal health and hygiene may you have to repo
 
 ## What should you do if there is a incident of food contamination resulting from your personal issue?
 - In all cases **Report to your supervisor**, if you think you have made contaminated food.
+
+
+
+
+
+Describe the term 'Personal Protective Equipment' and give three (3) examples of PPE in a kitchen environment.
+
+
+1. Wet hands with water
+2. Apply enough soap to cover all hand surfaces
+3. Rub hands palm to palm
+4. Right palm over left dorsum with interlaces fingers and vise versa
+5. Palm to palm with fingers interlaces
+6. Backs of fingers t opposing palms with fingers interlocked
+7. Rotational rubbing of left thumb clasped in right palm and vise versa
+8. Rotational rubbing, backwards, and forwards, with clasped fingers of right hand in left palm and vise versa
+9. Rinse hands with water
+10. Dry thoroughly with a single towel use
+11. Use towel to turn off faucet
+
+
+
+
+
+Please paraphrase the below information, keeping each dot point.
+- To enforce food safety requirements in the food business for licences, food handing practice
+- Unknown objects in food.
+- Manage applications, renewals, suspensions and calcellations of food business licences.
+- Accredit food safety programs
+- Investigate and respont to food safety complaints for matters they enforce 
+- Inspect any food business in their area regardless of whether the food business is licenced or not.
+
+
+<hr class="__chatgpt_plugin">
+
+role::assistant
+
+- The regulatory authority is responsible for ensuring that food businesses comply with food safety requirements and licensing regulations.
+- They handle issues related to foreign objects found in food.
+- They oversee the application process for food business licenses, as well as the renewal, suspension, and cancellation of licenses.
+- They accredit food safety programs to ensure they meet the necessary standards.
+- They investigate and address complaints related to food safety within their jurisdiction.
+- They conduct inspections of all food businesses in their area, regardless of whether they are licensed or not.
+
+<hr class="__chatgpt_plugin">
+
+role::user
+

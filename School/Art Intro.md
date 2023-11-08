@@ -25,4 +25,6 @@ Break it into a couple different ways teenagers are struggling, and make a small
 - Going through something tough? You can:
 	- Cry about it for a bit 😊
 	- Internalize it and take it out in anger at yourself or others😊
-	- 
+
+
+

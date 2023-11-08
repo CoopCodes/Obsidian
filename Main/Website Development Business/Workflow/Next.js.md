@@ -1,20 +1,16 @@
-What is next.js? Is it a CMS? 
+---
+backlinks:
+  - "[[Next.js - The Basics - Tutorial]]"
+---
+___
 
-<hr class="__chatgpt_plugin">
-
-role::assistant
+# What is next.js? Is it a CMS? 
 
 Next.js is not a CMS (Content Management System) but rather a framework for building server-rendered React applications. It is an open-source JavaScript framework created by Vercel (formerly Zeit) that allows developers to build modern web applications with features like server-side rendering, static site generation, and automatic code splitting. Next.js provides a streamlined development experience and helps optimize performance by pre-rendering pages and serving them as static HTML files. It also offers features like client-side routing, API routes, and built-in CSS support. While Next.js can be used with various CMS platforms, it is not a CMS itself.
 
-<hr class="__chatgpt_plugin">
 
-role::user
 
-Give an example of a website using Next.js and the tech stack it could use, how each item in the tech stack interacts with each other
-
-<hr class="__chatgpt_plugin">
-
-role::assistant
+# Give an example of a website using Next.js and the tech stack it could use, how each item in the tech stack interacts with each other
 
 Sure! Let's consider an example of a blog website built using Next.js. Here's a possible tech stack and how each component interacts with each other:
 
@@ -36,23 +32,10 @@ Sure! Let's consider an example of a blog website built using Next.js. Here's a 
 
 In this tech stack, Next.js handles the frontend rendering and routing, while Node.js and Express.js handle the backend logic and API endpoints. MongoDB stores the data, and CSS-in-JS libraries handle the styling. Markdown files are used to store blog post content, and API routes provide a way to interact with the backend.
 
-<hr class="__chatgpt_plugin">
-
-role::user
-
-Would next.js be considered apart of the front end or back end?
-
-<hr class="__chatgpt_plugin">
-
-role::assistant
+# Would next.js be considered apart of the front end or back end?
 
 Next.js is primarily considered a front-end framework. It is built on top of React, a front-end JavaScript library, and is used for rendering the user interface and handling client-side routing. Next.js enables server-side rendering and static site generation, which are front-end techniques for improving performance and SEO.
 
 However, Next.js also has some back-end capabilities. It can handle server-side rendering, API routes, and serverless functions, which involve server-side logic. Next.js runs on top of Node.js, a back-end JavaScript runtime environment. It can interact with databases and handle server-side operations.
 
 So, while Next.js is primarily focused on the front-end, it blurs the line between front-end and back-end by providing features that involve both aspects.
-
-<hr class="__chatgpt_plugin">
-
-role::user
-
