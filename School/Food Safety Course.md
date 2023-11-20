@@ -2,7 +2,7 @@
 tags:
   - hospitality
 ---
-___
+==___==
 ## Procedures to Follow to ensure Food Hygiene (List 5).
 - [x] Cleaning and sanitizing practices to avoid contamination of food
 - [x] Food storage (appropriate measures as per page 13 of learning support materials)
@@ -101,6 +101,118 @@ role::assistant
 - They accredit food safety programs to ensure they meet the necessary standards.
 - They investigate and address complaints related to food safety within their jurisdiction.
 - They conduct inspections of all food businesses in their area, regardless of whether they are licensed or not.
+
+<hr class="__chatgpt_plugin">
+
+role::user
+
+
+
+
+- Evacuation Maps
+- Warning Signs near machinery of electrical equipment
+- Fire Hydrant signs showing where a hydrant is and how to use it.
+
+Print valid evacuation maps near any exits, and ensure they effectively communicate where evacuees should exit to.
+
+As supervisors and managers know what to do in an emergency situation, and part of their job is to know what to do. Additionally, workplace warning signs specify if things are dangerous, and they are correct.
+
+A physical item or piece of clothing that protects your person and food from contamination or damage. Example are:
+- Hat, prevents hair from contaminating food.
+- Closed in Shoes, prevents a person's feet from being damaged by sharp objects in the workplace kitchen.
+- Aprons, prevents a person's clothing from being dirtied by food.
+
+To relevant supervisors or workplace health and safety officer.
+
+
+- Bomb threats
+- Medical Emergencies
+- Stealing
+- Suspicious people or unnacounted for objects
+- Fire
+
+
+
+If the fire is controllable use the appropriate equipment to distinguish it, this could be smothering it with a shoe, and for most controllable fires, a fire extinguisher.
+
+If the fire is too large, alert your supervisor and call the local police phone number. And tell the operator the following information:
+- The name of the business and address.
+
+
+
+Explain the possible consequences of not complying with WHS procedures.
+
+
+<hr class="__chatgpt_plugin">
+
+role::assistant
+
+Not complying with WHS procedures can have serious consequences, including:
+
+1. Personal injury or illness: Failure to follow safety procedures can result in accidents, injuries, or the development of work-related illnesses. This can lead to physical pain, disability, or long-term health issues.
+
+2. Legal penalties: Non-compliance with WHS procedures can result in legal consequences. Employers may face fines, penalties, or legal action if they fail to provide a safe working environment or disregard safety regulations.
+
+3. Damage to reputation: Failure to prioritize workplace health and safety can damage a company's reputation. This can lead to a loss of trust from employees, customers, and the public, which can have long-term negative effects on the business.
+
+4. Decreased productivity: Unsafe work environments can lead to decreased productivity and efficiency. Accidents or injuries can result in time off work, increased absenteeism, and decreased morale among employees.
+
+5. Financial costs: Workplace accidents or injuries can result in significant financial costs for both the employer and the employee. This includes medical expenses, compensation claims, increased insurance premiums, and potential legal fees.
+
+6. Loss of business opportunities: Companies that do not prioritize workplace health and safety may be overlooked by potential clients or partners who prioritize safety standards. This can result in missed business opportunities and a loss of competitive advantage.
+
+Overall, non-compliance with WHS procedures can have severe consequences for both individuals and businesses, affecting physical well-being, financial stability, and the overall success of the organization.
+
+<hr class="__chatgpt_plugin">
+
+role::user
+
+What are three (3) ways you can participate in WHS practices at your workplace? (dot points)
+
+
+<hr class="__chatgpt_plugin">
+
+role::assistant
+
+- Attend and actively engage in WHS training sessions and workshops provided by the company.
+- Follow all established WHS policies and procedures, including wearing appropriate personal protective equipment (PPE) and reporting any hazards or incidents.
+- Participate in regular workplace inspections and risk assessments, providing input and suggestions for improving safety measures and identifying potential hazards.
+
+<hr class="__chatgpt_plugin">
+
+role::user
+
+What content would be included in an organisation's procedure relating to:
+Security Management of people?: (short dot points)
+
+<hr class="__chatgpt_plugin">
+
+role::assistant
+
+- Identification and verification procedures for employees and visitors.
+- Access control measures, including the use of key cards, security codes, or biometric systems.
+- Procedures for reporting and addressing suspicious or unauthorized individuals on the premises.
+- Emergency response protocols, including evacuation procedures and communication methods.
+- Training programs for employees on security awareness and response to potential threats.
+- Incident reporting and investigation procedures for security-related incidents.
+- Collaboration with local law enforcement agencies for enhanced security measures.
+- Regular review and update of security procedures to adapt to changing threats and technologies.
+
+<hr class="__chatgpt_plugin">
+
+role::user
+
+What procedures can an organisation put in place for managing its WHS practices? (50 words)
+
+<hr class="__chatgpt_plugin">
+
+role::assistant
+
+- Develop and implement comprehensive WHS policies and procedures.
+- Conduct regular workplace inspections and risk assessments to identify hazards and implement control measures.
+- Provide appropriate training and education to employees on WHS practices.
+- Establish a system for reporting and investigating incidents and near misses.
+- Continuously monitor and review WHS practices to ensure compliance and improvement.
 
 <hr class="__chatgpt_plugin">
 

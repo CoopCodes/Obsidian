@@ -8,123 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "127a6ff7fabe8cdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School Captain Speech - Formal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29ccbd71bbc74d88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChatGPT_MD/chats/20231031220533.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cd0fb1b5824f83e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ff1d147ab24b8590",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8c121187213c989",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School Captain Speech - Informal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95fea8d03bbcb2c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Photography.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ae9b01036b63875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graphic Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9993496ac94b361c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sketching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1a8ea3d7435cb5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graffiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b01e49dfab97d7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Art Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f91e2deb68d46ae9",
+            "id": "4a12a1b6133e6809",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -134,9 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2de80cae07032068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31d7bd46ca545f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9819e9a305e0191",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working with a Team 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -165,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "snipp",
+                "query": "tag:Tafe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Food Safety Course.md",
+                "file": "Working with a Team 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Food Safety Course.md",
+                "file": "Working with a Team 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Food Safety Course.md"
+                "file": "Working with a Team 1.md"
               }
             }
           },
@@ -293,8 +213,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f91e2deb68d46ae9",
+  "active": "b9819e9a305e0191",
   "lastOpenFiles": [
+    "Cyber Security 1.md",
+    "Working with a Team 1.md",
+    "Cyber Security 2.md",
+    "Untitled 4.md",
+    "Sport and rec IA5.md",
+    "Food Safety Course.md",
+    "12.1 Representations of War.md",
+    "Untitled 3.md",
+    "Pasted image 20231113144432.png",
+    "IA5 Teacher Questions.md",
     "English Intro.md",
     "English.md",
     "Art Types.md",
@@ -310,20 +240,11 @@
     "ChatGPT_MD/chats/20231031220533.md",
     "Ideas.md",
     "Tuesday Week 6.md",
-    "Food Safety Course.md",
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",
     "Texts - Unit 1.md",
     "IA1 Event Management.md",
-    "Excalidraw/Drawing 2023-10-27 09.23.34.excalidraw.md",
-    "Goals.md",
-    "Help.md",
-    "Business Criteria.md",
-    "ChatGPT_MD/chats/20231015105919.md",
-    "ChatGPT_MD/chats/20231019120942.md",
-    "Math.md",
-    "Untitled 1.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Pasted image 20231009174417.png",
