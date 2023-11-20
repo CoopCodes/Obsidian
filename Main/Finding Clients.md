@@ -16,7 +16,7 @@
 ##### Full custom website:
 - Made fully custom for the business.
 - Takes time.
-asdfasdfaasdfasfhelphlep
+asdfasdfaasdfasfhelphlepasdfngi
 ##### In-a-day website:
 - Take a template, and fit it to the business
 **Example of outreach message:**
