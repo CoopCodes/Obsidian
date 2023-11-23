@@ -53,7 +53,7 @@ function Question({ title, description, questionType, questionOptions, questionI
 const [questions, setQuestions] = useState<Question>([]);
 
 function NextQuestion(id: int) {
-	const url = `https://www.koben.dev.com.au/BallparkEstimator/id?a${id}`;
+	const url = `https://www.koben.dev.com.au/BallparkEstimator/id?${id}`;
 	const response = await axios.get(url);
 	const { question } = response.data;
 	const { title, description, questionType, questionOptions, questionIcon } = question;
