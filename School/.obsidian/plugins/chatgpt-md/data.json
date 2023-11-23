@@ -1,5 +1,5 @@
 {
-  "apiKey": "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",
+  "apiKey": "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",
   "defaultChatFrontmatter": "---\nsystem_commands: ['I am a helpful assistant.You are responding in a markdown environment, thus latex can be interpreted within $$.']\ntemperature: 1\ntop_p: 1\nmax_tokens:  8000\npresence_penalty: 1\nfrequency_penalty: 1\nstream: true\nstop: null\nn: 1\nmodel: gpt-4\n---",
   "stream": true,
   "chatTemplateFolder": "ChatGPT_MD/templates",
