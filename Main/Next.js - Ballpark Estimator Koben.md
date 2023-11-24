@@ -79,3 +79,4 @@ function NextQuestion(id: int) {
 - Do we have a design for the page?
 - NPM authentication problem
 - How do i get access to all the question types
+    // "@fortawesome/fontawesome-pro": "^6.2.1",
