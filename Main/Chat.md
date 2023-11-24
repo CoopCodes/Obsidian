@@ -1,54 +1,56 @@
-Generate a shadow in react native
+Please write a simple typescript script to fetch an API of URL `https://www.koben.dev.com.au/BallparkEstimator/id?${parameter}`.
+The API should return JSON in the following format:
+```json
+"question": {
+	"title": "", // string
+	"description": "", // string
+	"questionType": "", // string
+	"questionOptions": [{
+		"title": "", // string
+		"description": "", // string
+		"linkingQuestion": "" // int (it is an Id)
+	}],
+	"questionIcon": "" // image url link
+}
+```
 
-
+please break all of these values into their own variable in typescript.
 
 <hr class="__chatgpt_plugin">
 
 role::assistant
 
-To generate a shadow in React Native, you can use the `elevation` style property for Android devices and the `shadow` style property for iOS devices. Here's an example:
+Sure! Here's a simple TypeScript script that fetches the API and breaks down the JSON response into separate variables:
 
-```javascript
-import React from 'react';
-import { View, StyleSheet, Platform } from 'react-native';
+```typescript
+import axios from 'axios';
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <View style={styles.box} />
-    </View>
-  );
-};
+async function fetchAPI(parameter: string): Promise<void> {
+  try {
+    const url = `https://www.koben.dev.com.au/BallparkEstimator/id?${parameter}`;
+    const response = await axios.get(url);
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  box: {
-    width: 200,
-    height: 200,
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    ...Platform.select({
-      ios: {
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.8,
-        shadowRadius: 2,
-      },
-      android: {
-        elevation: 4,
-      },
-    }),
-  },
-});
+    const { question } = response.data;
+    const { title, description, questionType, questionOptions, questionIcon } = question;
 
-export default App;
+    console.log('Title:', title);
+    console.log('Description:', description);
+    console.log('Question Type:', questionType);
+    console.log('Question Options:', questionOptions);
+    console.log('Question Icon:', questionIcon);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+}
+
+// Usage
+const parameter = 'exampleParameter';
+fetchAPI(parameter);
 ```
 
-In this example, we have a container view with a box inside it. The box has a white background color, a border radius of 10, and a shadow or elevation depending on the platform.
+Make sure to install the `axios` package by running `npm install axios` before running the script. This script uses `axios` to make the HTTP request and handles any errors that may occur during the request.
 
-For iOS, we use the `shadowColor`, `shadowOffset`, `shadowOpacity`, and `shadowRadius` properties to define the shadow. For Android, we use the `elevation` property to define the shadow. The values used in the example are just for demonstration purposes and can be adjusted to achieve the desired shadow effect.
+<hr class="__chatgpt_plugin">
+
+role::user
+

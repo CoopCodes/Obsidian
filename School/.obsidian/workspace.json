@@ -8,135 +8,103 @@
         "type": "tabs",
         "children": [
           {
-            "id": "127a6ff7fabe8cdc",
+            "id": "4a12a1b6133e6809",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School Captain Speech - Formal.md",
+                "file": "Sport and rec IA5.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "29ccbd71bbc74d88",
+            "id": "aad000816cc63f47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatGPT_MD/chats/20231031220533.md",
+                "file": "Dulce et Decorum est.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9cd0fb1b5824f83e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "ff1d147ab24b8590",
+            "id": "4424f74471116793",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ideas.md",
+                "file": "IA5 Teacher Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b8c121187213c989",
+            "id": "dd365781e6918ac8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School Captain Speech - Informal.md",
+                "file": "Mr. Ace Laptop.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "95fea8d03bbcb2c6",
+            "id": "fcd6b27e3372e9f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Photography.md",
+                "file": "Safety Checklist.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8ae9b01036b63875",
+            "id": "2de80cae07032068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graphic Design.md",
+                "file": "Cyber Security 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9993496ac94b361c",
+            "id": "31d7bd46ca545f3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sketching.md",
+                "file": "Cyber Security 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1a8ea3d7435cb5d",
+            "id": "b9819e9a305e0191",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graffiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b01e49dfab97d7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Art Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f91e2deb68d46ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Food Safety Course.md",
+                "file": "Working with a Team 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "snipp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,12 +167,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "70768663bb583bdb",
@@ -220,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Food Safety Course.md",
+                "file": "IA5 Teacher Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Food Safety Course.md",
+                "file": "IA5 Teacher Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Food Safety Course.md"
+                "file": "IA5 Teacher Questions.md"
               }
             }
           },
@@ -293,8 +260,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f91e2deb68d46ae9",
+  "active": "4424f74471116793",
   "lastOpenFiles": [
+    "Mr. Ace Laptop.md",
+    "IA5 Teacher Questions.md",
+    "Sport and rec IA5.md",
+    "Dulce et Decorum est.md",
+    "Safety Checklist.md",
+    "Food Safety Course.md",
+    "Working with a Team 1.md",
+    "Cyber Security 1.md",
+    "Cyber Security 2.md",
+    "Untitled 4.md",
+    "12.1 Representations of War.md",
+    "Untitled 3.md",
+    "Pasted image 20231113144432.png",
     "English Intro.md",
     "English.md",
     "Art Types.md",
@@ -309,21 +289,9 @@
     "School Captain Speech - Formal.md",
     "ChatGPT_MD/chats/20231031220533.md",
     "Ideas.md",
-    "Tuesday Week 6.md",
-    "Food Safety Course.md",
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",
-    "Texts - Unit 1.md",
-    "IA1 Event Management.md",
-    "Excalidraw/Drawing 2023-10-27 09.23.34.excalidraw.md",
-    "Goals.md",
-    "Help.md",
-    "Business Criteria.md",
-    "ChatGPT_MD/chats/20231015105919.md",
-    "ChatGPT_MD/chats/20231019120942.md",
-    "Math.md",
-    "Untitled 1.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Pasted image 20231009174417.png",

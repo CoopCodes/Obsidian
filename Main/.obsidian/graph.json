@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:nextjs_tutorial ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -15,7 +15,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 1,
@@ -25,6 +25,6 @@
   "repelStrength": 15,
   "linkStrength": 0.703125,
   "linkDistance": 94,
-  "scale": 0.3941549271933644,
+  "scale": 0.43284609491540027,
   "close": false
 }
