@@ -368,3 +368,6 @@ onPanResponderRelease: () => {
 }
 ...
 ```
+
+I have the above configuration for a drag and drop item, however when it drags, it goes below 
+How to get 

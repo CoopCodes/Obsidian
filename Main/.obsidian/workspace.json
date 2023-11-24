@@ -32,12 +32,56 @@
             }
           },
           {
+            "id": "ce20b3a0c761c142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Koben.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "525a3596972f0751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creating API for Ballpart Estimator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2de16edc5369f6f6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "df881cf6d603c49d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Website Development Business/Workflow/Front-End.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6bc80a440e63be8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -132,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js - The Basics - Tutorial.md",
+                "file": "Tailwind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js - The Basics - Tutorial.md",
+                "file": "Tailwind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Next.js - The Basics - Tutorial.md"
+                "file": "Tailwind.md"
               }
             }
           },
@@ -204,14 +248,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5843fa481e291f04",
+  "active": "a6bc80a440e63be8",
   "lastOpenFiles": [
+    "Pasted image 20231116160032.png",
+    "Website Development Business/Workflow/Front-End.md",
+    "Tailwind.md",
+    "Creating API for Ballpart Estimator.md",
+    "Koben.md",
+    "Getting database from Azure.md",
+    "Next.js - The Basics - Tutorial.md",
     "Pasted image 20231108134153.png",
     "Pasted image 20231108133859.png",
     "Website Development Business/Workflow/Next.js.md",
-    "Next.js - The Basics - Tutorial.md",
     "Chat 1.md",
-    "Website Development Business/Workflow/Front-End.md",
     "Chat.md",
     "Website Development Business/Workflow/Reacts Context API.md",
     "Website Development Business/Workflow/React.md",
@@ -242,12 +291,8 @@
     "Website Development Business/Business/Managing Projects.md",
     "School Work/Untitled.md",
     "School Work",
-    "Website Development Business/Business/Advertising.md",
     "Website Development Business/Business",
     "Website Development Business/Workflow",
-    "Website Development.md",
-    "Something.md",
-    "Website Development Business",
-    "Test.md"
+    "Website Development Business"
   ]
 }

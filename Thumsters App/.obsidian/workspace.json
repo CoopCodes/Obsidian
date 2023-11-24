@@ -63,8 +63,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1bf7098e44c9aa04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChatGPT_MD/chats/20231102091343.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Customizing Monster.md",
+                "file": "ChatGPT_MD/chats/20231102091343.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Customizing Monster.md",
+                "file": "ChatGPT_MD/chats/20231102091343.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Customizing Monster.md"
+                "file": "ChatGPT_MD/chats/20231102091343.md"
               }
             }
           },
@@ -203,14 +216,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "96d63b05b4ed6e0a",
+  "active": "1bf7098e44c9aa04",
   "lastOpenFiles": [
+    "Customizing Monster.md",
+    "ChatGPT_MD/chats/20231102091343.md",
+    "20231020114927.md",
     "ChatGPT_MD/chats/20231026103209.md",
     "ChatGPT_MD/chats/20231026103005.md",
-    "20231020114927.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
-    "Customizing Monster.md",
     "Chat.md",
     "Redirects.md",
     "CASE STUDIES.md",
