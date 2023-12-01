@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20231020114927.md",
+                "file": "Customizing Monster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20231020114927.md",
+                "file": "Customizing Monster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20231020114927.md"
+                "file": "Customizing Monster.md"
               }
             }
           },
@@ -203,12 +203,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58c1c8e66b6bd276",
+  "active": "96d63b05b4ed6e0a",
   "lastOpenFiles": [
+    "20231020114927.md",
     "Customizing Monster.md",
     "ChatGPT_MD/chats/20231026103209.md",
     "ChatGPT_MD/chats/20231026103005.md",
-    "20231020114927.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Chat.md",
