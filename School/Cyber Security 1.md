@@ -46,7 +46,10 @@ A fun but potentially realistic look at a world with no cybersecurity for your v
 
 Take the “spot the scam” quiz to identify examples of the phishing threat in action, and test your cyber threat identification skills. Please note that this is not an assessment, but is just a fun application of your knowledge.
 
-- [ ] Please research online through Google one new, emerging or current cyber threat that interests you, and please email your teacher with a short paragraph on what the threat is, how it works and how it can impact a business or others.
+- [x] Please research online through Google one new, emerging or current cyber threat that interests you, and please email your teacher with a short paragraph on what the threat is, how it works and how it can impact a business or others.
 
-I hope you have enjoyed this foirst week learning about major cyber threats. Next week we will be looking at practices to help reduce these threats. Please email your teacher if you required any support or have any queries: [montanna.chisnall@tafeqld.edu.au](mailto:montanna.chisnall@tafeqld.edu.au)
+
+**LLMs in Phishing. With the development of LLMs, scammers that use phishing as a technique to spread malware, adware, trojans, and worms, are being recognized more with people having more education around phishing. However with the rise of next to free tools such as ChatGPT, they can use it to create even more personalized emails, thus it is getting harder and harder for people to recognize these attacks.**
+
+I hope you have enjoyed this first week learning about major cyber threats. Next week we will be looking at practices to help reduce these threats. Please email your teacher if you required any support or have any queries: [montanna.chisnall@tafeqld.edu.au](mailto:montanna.chisnall@tafeqld.edu.au)
 
