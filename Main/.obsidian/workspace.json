@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c5ef40693da0569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Development Business/Workflow/Next.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5843fa481e291f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js - The Basics - Tutorial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce20b3a0c761c142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Koben.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "525a3596972f0751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creating API for Ballpart Estimator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2de16edc5369f6f6",
+            "id": "3227de47787064d4",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -64,67 +16,18 @@
             }
           },
           {
-            "id": "df881cf6d603c49d",
+            "id": "fb33056b7999e70a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Website Development Business/Workflow/Front-End.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0e3543a84b7b371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UI/UX Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6bc80a440e63be8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tailwind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f676eaba5d484a44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f2e21c8c4257833",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chat 1.md",
+                "file": "Automating Content Loading.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UI/UX Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UI/UX Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "UI/UX Design.md"
-              }
+              "state": {}
             }
           },
           {
@@ -272,8 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0e3543a84b7b371",
+  "active": "3227de47787064d4",
   "lastOpenFiles": [
+    "Automating Content Loading.md",
+    "Koben.md",
+    "CSS layout & positioning.md",
+    "Pasted image 20231210151204.png",
+    "Pasted image 20231210151116.png",
+    "Pasted image 20231210151114.png",
+    "Pasted image 20231210151015.png",
+    "Pasted image 20231210145809.png",
+    "Pasted image 20231210133753.png",
+    "Pasted image 20231210133654.png",
+    "Pasted image 20231210133531.png",
+    "Pasted image 20231210132601.png",
+    "Pasted image 20231210131306.png",
+    "Webflow 101.md",
+    "Webflow.md",
     "Website Development Business/Workflow/Front-End.md",
     "UI/UX Design.md",
     "UI",
@@ -282,13 +196,9 @@
     "Untitled.md",
     "OS namespace python.md",
     "Finding Clients.md",
-    "Pasted image 20231116160032.png",
     "Creating API for Ballpart Estimator.md",
-    "Koben.md",
     "Getting database from Azure.md",
     "Next.js - The Basics - Tutorial.md",
-    "Pasted image 20231108134153.png",
-    "Pasted image 20231108133859.png",
     "Website Development Business/Workflow/Next.js.md",
     "Chat 1.md",
     "Chat.md",
@@ -304,18 +214,7 @@
     "Todo App.md",
     "Untitled.canvas",
     "Hooks]], [[Components]], [[React Native.md",
-    "Pasted image 20230904150000.png",
-    "Website Development Business/Workflow/Components.md",
-    "Bors.md",
     "Untitled",
-    "Pasted image 20230830182532.png",
-    "Pasted image 20230830190015.png",
-    "Pasted image 20230830185950.png",
-    "Pasted image 20230830184617.png",
-    "Pasted image 20230830184444.png",
-    "Pasted image 20230830183630.png",
-    "ChatGPT_MD/chats/20230829122359.md",
-    "Website Development Business/Website Development Workflow.md",
     "School Work",
     "Website Development Business/Business",
     "Website Development Business/Workflow",

@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "4db73e024d51ebe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working with a Team 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b9819e9a305e0191",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Security 3.md",
+                "file": "Working with a Team 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Security 3.md",
+                "file": "Working with a Team 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Security 3.md"
+                "file": "Working with a Team 2.md"
               }
             }
           },
@@ -212,11 +224,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ab7854c52078adc",
+  "active": "4db73e024d51ebe6",
   "lastOpenFiles": [
+    "Cyber Security 3.md",
+    "Working with a Team 2.md",
     "Cyber Security 2.md",
     "Cyber Security 1.md",
-    "Cyber Security 3.md",
     "IA5 Teacher Questions.md",
     "Mr. Ace Laptop.md",
     "Sport and rec IA5.md",
@@ -240,7 +253,6 @@
     "Photography.md",
     "School Captain Speech - Informal.md",
     "School Captain Speech - Formal.md",
-    "ChatGPT_MD/chats/20231031220533.md",
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",
