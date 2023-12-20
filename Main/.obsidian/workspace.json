@@ -6,6 +6,7 @@
       {
         "id": "9ff14d146fe0bcd1",
         "type": "tabs",
+        "dimension": 73.39805825242719,
         "children": [
           {
             "id": "3227de47787064d4",
@@ -16,16 +17,73 @@
             }
           },
           {
-            "id": "fb33056b7999e70a",
+            "id": "ff734b0cf0449b36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Automating Content Loading.md",
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "7cb204d4b6c3cf1c"
+          },
+          {
+            "id": "9d6c5b19da24716f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flex box.md",
                 "mode": "source",
                 "source": false
               }
             }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b86bc4300ba5e71e",
+        "type": "tabs",
+        "dimension": 26.601941747572813,
+        "children": [
+          {
+            "id": "8e008dd0eda525a1",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 5,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.405781584582441,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.33737332331088105,
+                  "close": true
+                }
+              }
+            },
+            "group": "7cb204d4b6c3cf1c"
           }
         ]
       }
@@ -103,6 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +200,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md"
+              }
             }
           },
           {
@@ -171,49 +233,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3227de47787064d4",
+  "active": "ff734b0cf0449b36",
   "lastOpenFiles": [
+    "Flex box.md",
+    "CSS layout & positioning.md",
+    "CryptoFix UI/CryptoFix UI UX Project.md",
+    "CSS Grid.md",
+    "Pasted image 20231220104126.png",
+    "Website Development Business/Workflow/Reacts Context API.md",
+    "Pasted image 20231219225050.png",
+    "Webflow University.md",
+    "Website Development Business/Workflow/Front-End.md",
+    "Website Development Business/Workflow/Next.js.md",
+    "Next.js - Ballpark Estimator Koben.md",
+    "Next.js - The Basics - Tutorial.md",
+    "UI/Design Course.md",
+    "Tailwind.md",
+    "Webflow 101.md",
+    "Quick Stack.md",
+    "Website Development Business/Workflow/Components.md",
+    "Website Development Business/Workflow/Hooks.md",
+    "Website Development Business/Workflow/React Native Navigation.md",
+    "Website Development Business/Workflow/React Native.md",
+    "Drag & Drop.md",
+    "Todo App.md",
+    "Pasted image 20230830182532.png",
+    "CryptoFix UI",
+    "Pasted image 20231219155122.png",
     "Automating Content Loading.md",
     "Koben.md",
-    "CSS layout & positioning.md",
     "Pasted image 20231210151204.png",
     "Pasted image 20231210151116.png",
     "Pasted image 20231210151114.png",
     "Pasted image 20231210151015.png",
     "Pasted image 20231210145809.png",
     "Pasted image 20231210133753.png",
-    "Pasted image 20231210133654.png",
-    "Pasted image 20231210133531.png",
-    "Pasted image 20231210132601.png",
-    "Pasted image 20231210131306.png",
-    "Webflow 101.md",
-    "Webflow.md",
-    "Website Development Business/Workflow/Front-End.md",
-    "UI/UX Design.md",
     "UI",
-    "Next.js - Ballpark Estimator Koben.md",
-    "Tailwind.md",
     "Untitled.md",
     "OS namespace python.md",
     "Finding Clients.md",
-    "Creating API for Ballpart Estimator.md",
-    "Getting database from Azure.md",
-    "Next.js - The Basics - Tutorial.md",
-    "Website Development Business/Workflow/Next.js.md",
-    "Chat 1.md",
-    "Chat.md",
-    "Website Development Business/Workflow/Reacts Context API.md",
-    "Website Development Business/Workflow/React.md",
-    "Website Development Business/Workflow/Hooks.md",
-    "Website Development Business/Workflow/React Native Navigation.md",
-    "Website Development Business/Workflow/React Native.md",
-    "Drag & Drop.md",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
-    "Todo App.md",
     "Untitled.canvas",
-    "Hooks]], [[Components]], [[React Native.md",
     "Untitled",
     "School Work",
     "Website Development Business/Business",

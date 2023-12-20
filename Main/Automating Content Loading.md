@@ -12,3 +12,5 @@ I am thinking:
 - **Web scraping:**
 	- There should be a variable named `title`, and it will be the title of the current page, if this is from an Umbraco page, it can be found with `document.querySelectorAll('#nameField > div:nth-child(1) > p')[0].innerHTML`
 	- The function should find the corresponding page on the **old site**, using **Selenium**, and get the html from that.
+	- If there are images, we can use the following method: [How to Download and Image from a website using Selenium, Python, Requests, and Shutil (youtube.com)](https://www.youtube.com/watch?v=cb5q506qt_U), and save them to a folder, and load them in Umbraco.
+- Lets give an example of how it should work:

@@ -2,8 +2,8 @@ Children:
 [[React]]
 [[Next.js]]
 [[Tailwind]]
-[[UI/UX Design]]
-[[Webflow]]
+[[Design Course]]
+[[Webflow University]]
 Tags:
 #Workflow
-	
+#FrontEnd 

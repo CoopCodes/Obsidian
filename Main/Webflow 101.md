@@ -1,3 +1,8 @@
+---
+tags:
+  - FrontEnd
+---
+___
 # Intro to the Box Model
 1. Everything can be expressed as boxes
 2. By default, those boxes behave like a text document:
