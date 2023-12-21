@@ -112,6 +112,18 @@
             }
           },
           {
+            "id": "14b43fa97ad77240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leon - 21st of December.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6f2e21c8c4257833",
             "type": "leaf",
             "state": {
@@ -124,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -200,7 +212,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Samiur - 1st of December.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +228,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Samiur - 1st of December.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,9 +249,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Samiur - 1st of December.md"
-              }
+              "state": {}
             }
           },
           {
@@ -272,8 +280,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df5412dbce12f72e",
+  "active": "2de16edc5369f6f6",
   "lastOpenFiles": [
+    "Leon - 21st of December.md",
+    "Pasted image 20231221090641.png",
+    "Pasted image 20231221090636.png",
+    "Samiur - 1st of December.md",
     "UI/UX Design.md",
     "UI",
     "Pasted image 20231201144103.png",
@@ -281,7 +293,6 @@
     "Pasted image 20231201140741.png",
     "Pasted image 20231201140737.png",
     "Next.js - Ballpark Estimator Koben.md",
-    "Samiur - 1st of December.md",
     "Tailwind.md",
     "Untitled.md",
     "OS namespace python.md",
@@ -311,11 +322,7 @@
     "Hooks]], [[Components]], [[React Native.md",
     "Pasted image 20230904150000.png",
     "Website Development Business/Workflow/Components.md",
-    "Bors.md",
     "Untitled",
-    "Pasted image 20230830182532.png",
-    "Pasted image 20230830190015.png",
-    "ChatGPT_MD/chats/20230829122359.md",
     "School Work",
     "Website Development Business/Business",
     "Website Development Business/Workflow",
