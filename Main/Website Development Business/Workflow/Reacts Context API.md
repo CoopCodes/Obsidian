@@ -1,3 +1,8 @@
+---
+tags:
+  - FrontEnd
+---
+
 *A more efficient and maintainable way to pass data to all components in a react app using **the context API***
 - In the typical react app dataflow, components pass data through props.
 ![[Pasted image 20230830182532.png]]

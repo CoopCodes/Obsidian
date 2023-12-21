@@ -1,3 +1,8 @@
+---
+tags:
+  - FrontEnd
+---
+___
 **Implementing a Drag and Drop `FlatList` in react native**
 
 ```tsx

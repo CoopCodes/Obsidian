@@ -64,6 +64,18 @@
             }
           },
           {
+            "id": "5453f2329b8be9d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "df881cf6d603c49d",
             "type": "leaf",
             "state": {
@@ -136,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -212,6 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Leon - 21st of December.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,6 +241,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Leon - 21st of December.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +263,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Leon - 21st of December.md"
+              }
             }
           },
           {
@@ -280,48 +296,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2de16edc5369f6f6",
+  "active": "14b43fa97ad77240",
   "lastOpenFiles": [
+    "CryptoFix UI/CryptoFix UI UX Project.md",
+    "Webflow University.md",
+    "Webflow 101.md",
+    "UI/Design Course.md",
+    "Quick Stack.md",
+    "Pasted image 20231220104126.png",
+    "Pasted image 20231219225050.png",
+    "Pasted image 20231219155122.png",
+    "Pasted image 20231210151204.png",
+    "Pasted image 20231210151116.png",
+    "Pasted image 20231210151114.png",
+    "Pasted image 20231210151015.png",
+    "Pasted image 20231210145809.png",
+    "Pasted image 20231210133753.png",
+    "Pasted image 20231210133654.png",
+    "Flex box.md",
+    "CryptoFix UI",
+    "CSS layout & positioning.md",
+    "CSS Grid.md",
+    "Automating Content Loading.md",
     "Leon - 21st of December.md",
-    "Pasted image 20231221090641.png",
-    "Pasted image 20231221090636.png",
     "Samiur - 1st of December.md",
     "UI/UX Design.md",
     "UI",
-    "Pasted image 20231201144103.png",
-    "Pasted image 20231201140745.png",
-    "Pasted image 20231201140741.png",
-    "Pasted image 20231201140737.png",
     "Next.js - Ballpark Estimator Koben.md",
     "Tailwind.md",
     "Untitled.md",
     "OS namespace python.md",
     "Finding Clients.md",
-    "Pasted image 20231116160032.png",
     "Website Development Business/Workflow/Front-End.md",
     "Creating API for Ballpart Estimator.md",
     "Koben.md",
     "Getting database from Azure.md",
     "Next.js - The Basics - Tutorial.md",
-    "Pasted image 20231108134153.png",
-    "Pasted image 20231108133859.png",
     "Website Development Business/Workflow/Next.js.md",
     "Chat 1.md",
     "Chat.md",
     "Website Development Business/Workflow/Reacts Context API.md",
-    "Website Development Business/Workflow/React.md",
-    "Website Development Business/Workflow/Hooks.md",
-    "Website Development Business/Workflow/React Native Navigation.md",
-    "Website Development Business/Workflow/React Native.md",
-    "Drag & Drop.md",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
-    "Todo App.md",
     "Untitled.canvas",
-    "Hooks]], [[Components]], [[React Native.md",
-    "Pasted image 20230904150000.png",
-    "Website Development Business/Workflow/Components.md",
     "Untitled",
     "School Work",
     "Website Development Business/Business",

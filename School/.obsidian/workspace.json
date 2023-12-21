@@ -8,66 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4a12a1b6133e6809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sport and rec IA5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aad000816cc63f47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dulce et Decorum est.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4424f74471116793",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IA5 Teacher Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd365781e6918ac8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mr. Ace Laptop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcd6b27e3372e9f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Safety Checklist.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2de80cae07032068",
             "type": "leaf",
             "state": {
@@ -80,12 +20,36 @@
             }
           },
           {
-            "id": "31d7bd46ca545f3a",
+            "id": "4424f74471116793",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Cyber Security 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ab7854c52078adc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4db73e024d51ebe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Working with a Team 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -187,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IA5 Teacher Questions.md",
+                "file": "Working with a Team 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IA5 Teacher Questions.md",
+                "file": "Working with a Team 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IA5 Teacher Questions.md"
+                "file": "Working with a Team 2.md"
               }
             }
           },
@@ -260,17 +224,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4424f74471116793",
+  "active": "4db73e024d51ebe6",
   "lastOpenFiles": [
-    "Mr. Ace Laptop.md",
+    "Cyber Security 3.md",
+    "Working with a Team 2.md",
+    "Cyber Security 2.md",
+    "Cyber Security 1.md",
     "IA5 Teacher Questions.md",
+    "Mr. Ace Laptop.md",
     "Sport and rec IA5.md",
     "Dulce et Decorum est.md",
     "Safety Checklist.md",
     "Food Safety Course.md",
     "Working with a Team 1.md",
-    "Cyber Security 1.md",
-    "Cyber Security 2.md",
     "Untitled 4.md",
     "12.1 Representations of War.md",
     "Untitled 3.md",
@@ -287,8 +253,6 @@
     "Photography.md",
     "School Captain Speech - Informal.md",
     "School Captain Speech - Formal.md",
-    "ChatGPT_MD/chats/20231031220533.md",
-    "Ideas.md",
     "snippets.css",
     "snippets.txt",
     "New Text Document.txt",

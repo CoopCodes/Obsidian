@@ -1,6 +1,8 @@
 ---
 backlinks:
   - "[[Reacts Context API]]"
+tags:
+  - FrontEnd
 ---
 ___
 # Hooks

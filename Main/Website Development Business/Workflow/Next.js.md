@@ -2,6 +2,8 @@
 backlinks:
   - "[[Next.js - The Basics - Tutorial]]"
   - "[[Next.js - Ballpark Estimator Koben]]"
+tags:
+  - FrontEnd
 ---
 ___
 

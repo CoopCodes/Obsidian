@@ -1,3 +1,8 @@
+---
+tags:
+  - FrontEnd
+---
+___
 Back end is complete  
 I need to program the front end in react, I can get started on this now. Unknown if there is a design, i will just create a basic layout with image on top.
 ## Question Component
