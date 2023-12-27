@@ -1,3 +1,4 @@
+import datetime
 import os
 import time
 import subprocess
@@ -25,9 +26,15 @@ class FileHandler(FileSystemEventHandler):
                 subprocess.check_call(['git', 'push'], cwd=self.directory)
 
 def git_init(directory):
-    subprocess.check_call(['git', 'add', '.'], cwd=directory)
-    subprocess.check_call(['git', 'add', '.'], cwd=directory)
-    subprocess.check_call(['git', 'pull'], cwd=directory)
+    try:
+        subprocess.check_call(['git', 'pull'], cwd=directory)
+    except subprocess.CalledProcessError:
+        subprocess.check_call(['git', 'add', '.'], cwd=directory)
+        subprocess.check_call(['git', 'commit', '-m', str(datetime.datetime.now())], cwd=directory)
+        subprocess.check_call(['git', 'push'], cwd=directory)
+        
+        subprocess.check_call(['git', 'pull'], cwd=directory)
+
 
 def monitor_directory(directory):
     event_handler = FileHandler(directory)
