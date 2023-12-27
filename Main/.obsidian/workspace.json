@@ -6,16 +6,8 @@
       {
         "id": "9ff14d146fe0bcd1",
         "type": "tabs",
-        "dimension": 73.39805825242719,
+        "dimension": 67.21748400852879,
         "children": [
-          {
-            "id": "3227de47787064d4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
           {
             "id": "ff734b0cf0449b36",
             "type": "leaf",
@@ -41,13 +33,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b86bc4300ba5e71e",
         "type": "tabs",
-        "dimension": 26.601941747572813,
+        "dimension": 32.782515991471215,
         "children": [
           {
             "id": "8e008dd0eda525a1",
@@ -84,8 +75,17 @@
               }
             },
             "group": "7cb204d4b6c3cf1c"
+          },
+          {
+            "id": "3227de47787064d4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CryptoFix UI/CryptoFix UI UX Project.md"
-              }
+              "state": {}
             }
           },
           {
@@ -233,11 +229,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff734b0cf0449b36",
+  "active": "3227de47787064d4",
   "lastOpenFiles": [
+    "CryptoFix UI/CryptoFix UI UX Project.md",
     "Flex box.md",
     "CSS layout & positioning.md",
-    "CryptoFix UI/CryptoFix UI UX Project.md",
     "CSS Grid.md",
     "Pasted image 20231220104126.png",
     "Website Development Business/Workflow/Reacts Context API.md",

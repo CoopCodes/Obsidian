@@ -152,7 +152,8 @@ He followed the following steps:
 ___
 # High-fidelity Mockup/Design
 *Using the structure determined in the mockup, to create a design.*
-## Navigation Design
+## Home Page Design
+### Navigation Design
 - The first consideration when designing from a wireframe, is going to be the <span style="color: #8200E9">Primary color</span>
 - Create a variable for the color.
 - The primary color can be used to create all the other colors.
@@ -172,15 +173,51 @@ ___
 	- Making it a button.
 - Take the navbar and make it a component.
 
-## Background Design
+### Background Design
 - Based on the business be crypto, choose an image from an unsplash that has to do with polygons and block with
 - Think of ways to create good contrast, and same colors, to make it fit in.
 
-## Hero Section Design
+### Hero Section Design
 - Add typography section to display text types.
 - Add content for the section, and change things till its good.
 - If text isn't going to be reused, you don't necessarily need to create a style for it.
 - Find the next information that needs to be displayed.
 - You CAN offset things off of the grid, to make things more visual.
 - Use icons to reinforce information if need.
-- Don't overuse the primary color, only do it form important things.
+- Don't overuse the primary color, only do it for important things.
+
+### Analytics Section Design
+- Typing the information that is needed to be displayed.
+- Heading.
+- Adding New type to design system.
+- Thinking through the visual hierarchy that is required for the information.
+- Brainstorming what element would be good to display data:
+	- Chart.
+
+
+### Testimonial Section Design
+- When there is a lot of content, you can't go wrong with centering.
+- **How can this information be displayed effectively, in a visual way? And effectively differentiate/highlight important information.**
+- Referring back to the client brief when need
+- Making sure things are switched up, adding a different background for different sections
+
+
+### Exchanges Section Design
+- Once the first page is finished, the design system is mostly established.
+- Think through the colors.
+- Just doing what you think is good.
+
+
+### Logos Section Design
+- When you feature logos, make sure they are designed consistently, with the same color.
+
+
+### Footer Section Design
+- you can use links that don't need to be shown in navigation
+- Make sure **differentiated content**, is visually different
+- Keep icons either **Filled or unfilled**
+- Create a component of the footer section
+
+
+## Ad Types Page Design
+- Duplicate the page, and get started on this page.
