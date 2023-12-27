@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:nextjs_tutorial ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,11 +8,12 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#Index  ",
+      "query": "tag:Index",
       "color": {
         "a": 1,
         "rgb": 15365750
       }
+<<<<<<< HEAD
     },
     {
       "query": "tag:#FrontEnd  ",
@@ -20,10 +21,13 @@
         "a": 1,
         "rgb": 16511363
       }
+=======
+>>>>>>> 17186597bfea612df9d58db1501e9c13547a8f62
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
+<<<<<<< HEAD
   "textFadeMultiplier": -0.8,
   "nodeSizeMultiplier": 1.01875,
   "lineSizeMultiplier": 1.68229166666667,
@@ -33,5 +37,16 @@
   "linkStrength": 0,
   "linkDistance": 214,
   "scale": 0.1741872790814329,
+=======
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.536458333333333,
+  "repelStrength": 15,
+  "linkStrength": 0.703125,
+  "linkDistance": 94,
+  "scale": 1.192783578411404,
+>>>>>>> 17186597bfea612df9d58db1501e9c13547a8f62
   "close": false
 }

@@ -6,32 +6,7 @@
       {
         "id": "2686915b931e5756",
         "type": "tabs",
-        "dimension": 48.410174880763115,
         "children": [
-          {
-            "id": "ea99f839c5e5be04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20231020114927.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be78833ca9de3477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ChatGPT_MD/chats/20231026103005.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "96d63b05b4ed6e0a",
             "type": "leaf",
@@ -43,22 +18,14 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ae53e3db7e287c9b",
-        "type": "tabs",
-        "dimension": 51.589825119236885,
-        "children": [
+          },
           {
-            "id": "58c1c8e66b6bd276",
+            "id": "5e8c585e7f25a9a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20231020114927.md",
+                "file": "UI Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20231020114927.md",
+                "file": "Customizing Monster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20231020114927.md",
+                "file": "Customizing Monster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20231020114927.md"
+                "file": "Customizing Monster.md"
               }
             }
           },
@@ -181,7 +147,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -203,12 +171,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58c1c8e66b6bd276",
+  "active": "96d63b05b4ed6e0a",
   "lastOpenFiles": [
+    "UI Design.md",
+    "Pasted image 20231221152635.png",
+    "Pasted image 20231221152625.png",
     "Customizing Monster.md",
+    "20231020114927.md",
     "ChatGPT_MD/chats/20231026103209.md",
     "ChatGPT_MD/chats/20231026103005.md",
-    "20231020114927.md",
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Chat.md",

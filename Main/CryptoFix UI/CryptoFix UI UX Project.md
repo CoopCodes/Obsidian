@@ -13,7 +13,7 @@ ___
 	- **Advertising**
 	- They're basically a middleman company, and they bring publishers and advertisers together.
 		- A publisher is a something that has a blog, our could be an influencer. These people are how advertisers can further advertise.
-		- And the advertisers want to make advertisements to sell.
+			- And the advertisers want to make advertisements to sell.
 	- They are wanting to connect the publishers and advertisers, and the platform is for publishers to make themselves known to advertisers. Just like a service such as fiver.
 	- **Thought process**: He read the information, and immediately unpacked what the company was, and tried to **understand it for himself.**
 

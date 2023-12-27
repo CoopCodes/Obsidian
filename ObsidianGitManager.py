@@ -24,7 +24,9 @@ class FileHandler(FileSystemEventHandler):
                     pass
                 subprocess.check_call(['git', 'push'], cwd=self.directory)
 
-def git_pull(directory):
+def git_init(directory):
+    subprocess.check_call(['git', 'add', '.'], cwd=directory)
+    subprocess.check_call(['git', 'add', '.'], cwd=directory)
     subprocess.check_call(['git', 'pull'], cwd=directory)
 
 def monitor_directory(directory):
@@ -42,5 +44,5 @@ def monitor_directory(directory):
 
 if __name__ == "__main__":
     directory = 'C:\\Users\\gc021217\\Obsidian\\Obsidian'  # specify your directory
-    git_pull(directory)
+    git_init(directory)
     monitor_directory(directory)
