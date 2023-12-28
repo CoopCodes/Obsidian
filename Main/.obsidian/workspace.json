@@ -8,7 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "826de2253845cffd",
+            "id": "e911f076b5c54d3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "81f86e22dc3265df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd2ee521ecc565ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -150,7 +168,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,6 +186,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed3faf10dbb5b1c5",
-  "lastOpenFiles": []
+  "active": "fd2ee521ecc565ba",
+  "lastOpenFiles": [
+    "CryptoFix UI/CryptoFix UI UX Project.md"
+  ]
 }

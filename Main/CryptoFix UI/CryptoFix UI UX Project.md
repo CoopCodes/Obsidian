@@ -221,3 +221,77 @@ ___
 
 ## Ad Types Page Design
 - Duplicate the page, and get started on this page.
+
+## Learning Outcome
+When starting a **High-fidelity** mockup, do the following:
+1. Find a **Primary** color that the whole design will follow, all **secondary** & **other** colors can be a variation of this on the HSL.
+2. Create a **Design System**, with the following pages:
+	- **Colors** - Contains the all the colors used in the mockup.
+	- **Typography** - Contains the fonts used, and the different **text styles** used in the mockup.
+		- Dependent on ***Colors***
+	- **Components** - Contains all the components used in the mockup, such as buttons and navigations.
+		- Should contain frames containing different components, **sorted & named based on how many nested components there are.** E.g. Footer has 1
+		- Dependent on ***Typography*** & ***Colors***
+	- **Layout Specifications** - Contains layout guidelines, frames showing the sizes of each different device, and it's corresponding grid layout. **This should be populated before start of design.**
+- **This design system will be populated throughout the development**
+3. For each page following the following steps:
+	1.  For each section follow the following steps:
+		1. Look at the requirements of the section in the **client brief**.
+		2. **Brainstorm** how can this information be displayed **effectively**, in a **visual way**? And effectively **differentiate/highlight** important information. The thought-up design should:
+			- Display the information **aesthetically**, sticking to the design system.
+			- Any important information should be **differentiated** from the other information.
+			- For example: When creating the Nav Bar, you look up all the pages on the website, and include them. And the link to the CTA page is different to the other links, **highlighting** the importance of it. Additionally the *Login & Start Campaign* were grouped together, and right aligned compared to the other links. *(See [[CryptoFix UI UX Project#Navigation Design|Navigation Design]])*
+			- Take into account the following notes:
+				- **Icons** - Use Icons to reinforce information visually.
+				- Don't overuse the **primary color**.
+				- **Center** - When there is a lot of content, you can't go wrong with centering.
+				- **The grid is not final** - not everything has to be aligned on the grid, if it works, it works. *(see [[CryptoFix UI UX Project#Hero Section Design|Hero Section Design]])*
+				- **Switch things up** - Change the background color or image.
+				- **DO NOT Overthink** - If it looks good go with it, if your stuck, move onto the next section.
+				- **Icon style** - if you are using icons, make sure they are the same color, and same style/fill.
+		3. Ensure that when creating new colors or text styles or components, **create** it in the design system. Do this for:
+			- New **Colors** - When creating a new color, *most* of the time, the color will be a variation of the **Primary Color**, the naming convention of the color should be the following: `color-primary-{light_value}`. Where `light_value` is the how light it is on the HSL (Hue, Saturation, Light) color system. This color should be created as a *color style*, and displayed in the ***Design System/Colors***.
+			- New **Text Styles** - When adding text, the size, weight, color, and possibly font are variable. Each change to this should be created as a *text style*, and displayed in ***Design System/Typography***
+			- New **Components** - This is often composed of colors and type. Each component should have a descriptive name, and be created within ***Design System/Components/{nesting_level}***.
+				- Additionally, each component should be **prototyped** accordingly, depending on the requirements and the component.
+		4. Review the component, and ensure it has good **Visual Hierarchy** & follows the **design system**. 
+		5. If the section will be repeated throughout pages (e.g. a Navbar or footer). Create it as a **component**, and display it in ***Design System/Components/{nesting_level}***.
+		6. Repeat steps 1-6 for each require section, which were defined in the [[CryptoFix UI UX Project#Wireframing|Wireframe]].
+	1. Duplicate the page, and delete most of the content, and repeat.
+
+___
+# Tablet Design
+- Create a new page *Tablet Design*. 
+
+## Tablet Homepage Design
+- Copy the current desktop homepage, and copy it into the page.
+- Create the tablet frame with the correct sizing.
+
+### Navigation Tablet Design
+- Some things that are designed in Desktop, just isn't enough space.
+- Such as the navbar, there is not enough white space.
+- So we need to **think of a way to still display the information, but still display it effectively.**
+	- For the navbar, there will be a hamburger menu.
+	- But we will keep the *Login & CTA Button* outside, as this is **Important information.**
+- When the component has been converted to tablet, rename it and display it in the design system.
+
+### Hero Section Tablet Design
+- You can change the font size and scaling, to give yourself more room.
+- Inside the *Typography* Page, under Design System, create another frame, and name it *Tablet Typography*. And all the new text styles you create can go within here.
+- Make logical Decisions based on how things look.
+
+### Analytical Section Tablet Design
+- Things can collapse into a row, instead a column if it is.
+
+### Exchanges Section Tablet Design:
+- Consolidate white space if need, some sacrifices need to be made.
+
+## Start Campaign Tablet Design
+- If information is listed as important, and in the desktop it is a 2 column layout, you should include the most important information up the top.
+
+## Contact Us Tablet Design
+- If information that is collapsing into another row for space, the content inside can be reconfigured, as there is more space. Such as adding more rows
+
+## Learning Outcome:
+1. For each section in each page think like the following:
+	1. 
