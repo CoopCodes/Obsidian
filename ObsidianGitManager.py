@@ -23,7 +23,10 @@ class FileHandler(FileSystemEventHandler):
                     subprocess.check_call(f'git commit -m "auto: {filename}"', cwd=self.directory)
                 except subprocess.CalledProcessError:
                     pass
-                subprocess.check_call(['git', 'push'], cwd=self.directory)
+                try:
+                    subprocess.check_call(['git', 'push'], cwd=self.directory)
+                except subprocess.CalledProcessError:
+                    break
 
 def git_init(directory):
     try:
