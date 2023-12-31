@@ -1,5 +1,5 @@
 {
-  "apiKey": "${",
+  "apiKey": "${{ vars.",
   "defaultChatFrontmatter": "---\nsystem_commands: ['I am a helpful assistant.']\ntemperature: 0\ntop_p: 1\nmax_tokens: 8000\npresence_penalty: 1\nfrequency_penalty: 1\nstream: true\nstop: null\nn: 1\nmodel: gpt-4\n---",
   "stream": true,
   "chatTemplateFolder": "ChatGPT_MD/templates",
