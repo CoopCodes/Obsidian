@@ -26,7 +26,7 @@ class FileHandler(FileSystemEventHandler):
                 try:
                     subprocess.check_call(['git', 'push'], cwd=self.directory)
                 except subprocess.CalledProcessError:
-                    break
+                    continue
 
 def git_init(directory):
     try:
