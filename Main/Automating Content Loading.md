@@ -14,4 +14,3 @@ I am thinking:
 	- The function should find the corresponding page on the **old site**, using **Selenium**, and get the html from that.
 	- If there are images, we can use the following method: [How to Download and Image from a website using Selenium, Python, Requests, and Shutil (youtube.com)](https://www.youtube.com/watch?v=cb5q506qt_U), and save them to a folder, and load them in Umbraco.
 - Lets give an example of how it should work:
-- ellox
