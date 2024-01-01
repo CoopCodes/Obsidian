@@ -283,7 +283,7 @@ ___
 ### Analytical Section Tablet Design
 - Things can collapse into a row, instead a column if it is.
 
-### Exchanges Section Tablet Design:
+### Exchanges Section Tablet Design
 - Consolidate white space if need, some sacrifices need to be made.
 
 ## Start Campaign Tablet Design
