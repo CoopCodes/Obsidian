@@ -302,4 +302,3 @@ ___
 		2. If It does: Think of a way that the information can be displayed in a different way, that fits the new size, is still visually similar, and still keeps correct visual hierarchy. Example:
 			- For the navbar, there is not enough whitespace for the links. So we can add a hamburger menu, and the **non-important** links can go in the dropdown. However, the important links, such as the **Login & CTA Button**, can stay outside, for easy access to the user. *[[CryptoFix UI UX Project#Navigation Tablet Design|Navigation Tablet Design]]*
 		3. If a component has been changed during this process, add a *Tablet* prefix after the existing name. And display it in the Design System.
-		- 
