@@ -329,3 +329,4 @@ ___
 - This is a very complex layout, so a lot of refactoring will need to be done.
 - Brainstorm a way the layout can display the same information, but in smaller way.
 
+### Footer 
