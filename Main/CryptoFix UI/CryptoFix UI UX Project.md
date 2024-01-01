@@ -295,6 +295,7 @@ ___
 ## Learning Outcome:
 1. Create a new page named *Tablet Design*.
 2. For each page:
-	1. Copy the respective Desktop Mockup into the new 
+	1. Copy the respective Desktop Mockup into the page.
+	2. 
 3. For each section in each page think like the following:
 	1. 
