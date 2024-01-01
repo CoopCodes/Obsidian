@@ -317,7 +317,7 @@ ___
 - Create a new page *Mobile Design*
 
 ## Mobile Navigation Design
-- Test t
+- Test to see if the CTA butto
 
 
 ## Mobile Homepage Design
