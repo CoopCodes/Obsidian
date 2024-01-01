@@ -327,4 +327,4 @@ ___
 
 ### Exchanges Section Mobile Design
 - This is a very complex layout, so a lot of refactoring will need to be done.
-- Brainstorm a way the layout can be 
+- Brainstorm a way the layout 
