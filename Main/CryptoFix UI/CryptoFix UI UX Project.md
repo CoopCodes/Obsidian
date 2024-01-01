@@ -311,3 +311,6 @@ ___
 			- Create 3 different Text Style Schemes, Desktop, Tablet, and Mobile. Enter the new text sizes into this.
 		6. Repeat steps.
 	4. Repeat steps.
+
+___
+##
