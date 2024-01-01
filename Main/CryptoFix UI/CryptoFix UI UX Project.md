@@ -321,6 +321,5 @@ ___
 - Test to see if the CTA button can still be shown, and not in the menu.
 - It can so create a new component, and change the positioning and sizing until it is good.
 
-
 ### Mobile Homepage Design
 - For f
