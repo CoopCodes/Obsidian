@@ -318,7 +318,7 @@ ___
 
 ## Mobile Navigation Design
 - Test to see if the CTA button can still be shown, and not in the menu.
-- It can so create a new component
+- It can so create a new component, 
 
 
 ## Mobile Homepage Design
