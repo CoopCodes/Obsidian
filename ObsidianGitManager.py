@@ -1,5 +1,6 @@
 import datetime
 import os
+import sys
 import time
 import subprocess
 from watchdog.observers import Observer
@@ -53,6 +54,10 @@ def monitor_directory(directory):
     observer.join()
 
 if __name__ == "__main__":
-    directory = 'C:\\Users\\gc021217\\Obsidian\\Obsidian'  # specify your directory
-    git_init(directory)
-    monitor_directory(directory)
+    print(sys.argv)
+    if len(sys.argv) > 1:
+        directory = sys.argv[1]  # specify your directory
+        git_init(directory)
+        monitor_directory(directory)
+    else: 
+        print('Please enter directory as argument')
