@@ -316,4 +316,4 @@ ___
 # Mobile Design
 - Create a new page *Mobile Design*
 
-## Mobile Homepage 
+## Mobile Homepage Design
