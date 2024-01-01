@@ -4,59 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ff14d146fe0bcd1",
+        "id": "fdf5a5008b1c628e",
         "type": "tabs",
         "children": [
           {
-            "id": "6c5ef40693da0569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Development Business/Workflow/Next.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5843fa481e291f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js - The Basics - Tutorial.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce20b3a0c761c142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Koben.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "525a3596972f0751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Creating API for Ballpart Estimator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2de16edc5369f6f6",
+            "id": "c408ae384211122d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -64,19 +16,7 @@
             }
           },
           {
-            "id": "f9110f61878e2aab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Flex box.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5453f2329b8be9d8",
+            "id": "c9eaf08f8ea89500",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -86,81 +26,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "df881cf6d603c49d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Website Development Business/Workflow/Front-End.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6bc80a440e63be8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tailwind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f676eaba5d484a44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df5412dbce12f72e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Samiur - 1st of December.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14b43fa97ad77240",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leon - 21st of December.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f2e21c8c4257833",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chat 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flex box.md",
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flex box.md",
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flex box.md"
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md"
               }
             }
           },
@@ -308,10 +176,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9110f61878e2aab",
+  "active": "c9eaf08f8ea89500",
   "lastOpenFiles": [
+    "Chat 1.md",
     "Leon - 21st of December.md",
+    "Samiur - 1st of December.md",
+    "Next.js - Ballpark Estimator Koben.md",
+    "Tailwind.md",
+    "Website Development Business/Workflow/Front-End.md",
     "CryptoFix UI/CryptoFix UI UX Project.md",
+    "Flex box.md",
     "Webflow University.md",
     "Webflow 101.md",
     "UI/Design Course.md",
@@ -326,26 +200,20 @@
     "Pasted image 20231210145809.png",
     "Pasted image 20231210133753.png",
     "Pasted image 20231210133654.png",
-    "Flex box.md",
     "CryptoFix UI",
     "CSS layout & positioning.md",
     "CSS Grid.md",
     "Automating Content Loading.md",
-    "Samiur - 1st of December.md",
     "UI/UX Design.md",
     "UI",
-    "Next.js - Ballpark Estimator Koben.md",
-    "Tailwind.md",
     "Untitled.md",
     "OS namespace python.md",
     "Finding Clients.md",
-    "Website Development Business/Workflow/Front-End.md",
     "Creating API for Ballpart Estimator.md",
     "Koben.md",
     "Getting database from Azure.md",
     "Next.js - The Basics - Tutorial.md",
     "Website Development Business/Workflow/Next.js.md",
-    "Chat 1.md",
     "Chat.md",
     "Website Development Business/Workflow/Reacts Context API.md",
     "ChatGPT_MD/templates",
