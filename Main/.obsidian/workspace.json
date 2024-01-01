@@ -40,7 +40,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "98b8268923c25368",
@@ -133,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,9 +182,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -207,8 +203,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b28b0d14944833c7",
+  "active": "96b9a7ff2e34d5ae",
   "lastOpenFiles": [
+    "Next.js - Ballpark Estimator Koben.md",
     "CryptoFix UI/CryptoFix UI UX Project.md",
     "Automating Content Loading.md"
   ]
