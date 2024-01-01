@@ -313,4 +313,5 @@ ___
 	4. Repeat steps.
 
 ___
-# Mobile
+# Mobile Design
+- Create a new page 
