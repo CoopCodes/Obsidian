@@ -296,6 +296,6 @@ ___
 1. Create a new page named *Tablet Design*.
 2. For each page:
 	1. Copy the respective Desktop Mockup into the page.
-	2. Create a frame with the correct tabet
+	2. Create a frame with the correct tablet sizing, and tablet grid.
 3. For each section in each page think like the following:
 	1. 
