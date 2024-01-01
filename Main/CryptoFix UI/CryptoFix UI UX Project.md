@@ -301,7 +301,7 @@ ___
 		1. Resize the respective section, and see if the design visually breaks.
 		2. If It does: Think of a way that the information can be displayed in a different way, that fits the new size, is still visually similar, and still keeps correct visual hierarchy. 
 			- When brainstorming this design, keep in mind the following:
-				- You can change the font
+				- You can change the font size and s
 			- Example: For the navbar, there is not enough whitespace for the links. So we can add a hamburger menu, and the **non-important** links can go in the dropdown. However, the important links, such as the **Login & CTA Button**, can stay outside, for easy access to the user. *[[CryptoFix UI UX Project#Navigation Tablet Design|Navigation Tablet Design]]*
 		4. If a component has been changed during this process, add a *Tablet* prefix after the existing name. And display it in the Design System.
 		5. 
