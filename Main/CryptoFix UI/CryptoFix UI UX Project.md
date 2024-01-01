@@ -326,4 +326,5 @@ ___
 - And remove the hover feature.
 
 ### Exchanges Section Mobile Design
-- This is a very complex layout, so a lot of refaa
+- This is a very complex layout, so a lot of refactoring will need to be done.
+- 
