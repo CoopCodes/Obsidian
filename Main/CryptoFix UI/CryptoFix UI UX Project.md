@@ -300,5 +300,5 @@ ___
 	3. For each section in each page think like the following:
 		1. Resize the respective section, and see if the design visually breaks.
 		2. If It does: Think of a way that the information can be displayed in a different way, that fits the new size, and is still visually similar. Example:
-			- 
+			- For the n
 			- *([[#Navigation Tablet Design|Navigation Tablet Design]])*
