@@ -309,4 +309,4 @@ ___
 		4. If a component has been changed during this process, add a *Tablet* prefix after the existing name. And display it in the Design System.
 		5. If you have changed text sizes, you should create a new text style in the design system, this is often done using the following:
 			- Create 3 different Text Style Schemes, Desktop, Tablet, and Mobile. Enter the new text sizes into this.
-		6. 
+		6. Repeat steps.
