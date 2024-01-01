@@ -54,7 +54,6 @@ def monitor_directory(directory):
     observer.join()
 
 if __name__ == "__main__":
-    print(sys.argv)
     if len(sys.argv) > 1:
         directory = sys.argv[1]  # specify your directory
         git_init(directory)
