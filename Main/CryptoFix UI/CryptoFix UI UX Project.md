@@ -293,5 +293,6 @@ ___
 - If information that is collapsing into another row for space, the content inside can be reconfigured, as there is more space. Such as adding more rows
 
 ## Learning Outcome:
-1. For each section in each page think like the following:
+1. 
+2. For each section in each page think like the following:
 	1. 
