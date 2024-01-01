@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Automating Content Loading.md",
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Automating Content Loading.md",
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Automating Content Loading.md"
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md"
               }
             }
           }
@@ -180,8 +181,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac436094043e1f42",
+  "active": "e911f076b5c54d3f",
   "lastOpenFiles": [
+    "Automating Content Loading.md",
     "CryptoFix UI/CryptoFix UI UX Project.md"
   ]
 }
