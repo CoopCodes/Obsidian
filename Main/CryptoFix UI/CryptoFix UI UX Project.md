@@ -301,7 +301,7 @@ ___
 		1. Resize the respective section, and see if the design visually breaks.
 		2. If It does: Think of a way that the information can be displayed in a different way, that fits the new size, is still visually similar, and still keeps correct visual hierarchy. 
 			- When brainstorming this design, keep in mind the following:
-				- You can change the font size and scaling, to give the design more room. [[CryptoFix UI UX Project#Hero Section Tablet Design|Hero Section Tablet Design]]
+				- You can change the font size and scaling, to give the design more room. *[[CryptoFix UI UX Project#Hero Section Tablet Design|Hero Section Tablet Design]]*
 				- If a section, in desktop, is column based, if there is not enough room on other break points, make the layout a **row** based layout.
 					- Additionally, if some information is more important than the other, **it should be on top**. *[[CryptoFix UI UX Project#Start Campaign Tablet Design|Start Campaign Tablet Design]]*
 					- If 
