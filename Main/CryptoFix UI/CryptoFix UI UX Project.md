@@ -317,10 +317,10 @@ ___
 - Create a new page *Mobile Design*
 
 ## Mobile Homepage Design
-## Mobile Navigation Design
+### Mobile Navigation Design
 - Test to see if the CTA button can still be shown, and not in the menu.
 - It can so create a new component, and change the positioning and sizing until it is good.
 
 
-## Mobile Homepage Design
+### Mobile Homepage Design
 - For f
