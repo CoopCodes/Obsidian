@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96b9a7ff2e34d5ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "98b8268923c25368",
@@ -186,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e911f076b5c54d3f",
+  "active": "96b9a7ff2e34d5ae",
   "lastOpenFiles": [
     "Automating Content Loading.md",
     "CryptoFix UI/CryptoFix UI UX Project.md"
