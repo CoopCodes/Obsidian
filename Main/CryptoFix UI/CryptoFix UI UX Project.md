@@ -305,4 +305,4 @@ ___
 				- 
 			- Example: For the navbar, there is not enough whitespace for the links. So we can add a hamburger menu, and the **non-important** links can go in the dropdown. However, the important links, such as the **Login & CTA Button**, can stay outside, for easy access to the user. *[[CryptoFix UI UX Project#Navigation Tablet Design|Navigation Tablet Design]]*
 		4. If a component has been changed during this process, add a *Tablet* prefix after the existing name. And display it in the Design System.
-		5. If you have changed text sizes, you should create a new text style in the design system
+		5. If you have changed text sizes, you should create a new text style in the design system, this is of
