@@ -322,4 +322,4 @@ ___
 - It can so create a new component, and change the positioning and sizing until it is good.
 
 ### Mobile Hero Design
-- For f
+- For the fe
