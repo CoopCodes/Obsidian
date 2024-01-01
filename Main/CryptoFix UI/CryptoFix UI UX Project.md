@@ -294,6 +294,6 @@ ___
 
 ## Learning Outcome:
 1. Create a new page named *Tablet Design*.
-2. 
+2. [[#]]
 3. For each section in each page think like the following:
 	1. 
