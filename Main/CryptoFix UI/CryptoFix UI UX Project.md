@@ -316,6 +316,7 @@ ___
 # Mobile Design
 - Create a new page *Mobile Design*
 
-## Moible 
+## Mobile Navigation Design
+
 ## Mobile Homepage Design
 - For 
