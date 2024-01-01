@@ -314,4 +314,4 @@ ___
 
 ___
 # Mobile Design
-- Create a new page 
+- Create a new page *Mobile*
