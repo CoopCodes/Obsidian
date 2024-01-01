@@ -317,4 +317,4 @@ ___
 - Create a new page *Mobile Design*
 
 ## Mobile Homepage Design
-- Copy the current homepage
+- 
