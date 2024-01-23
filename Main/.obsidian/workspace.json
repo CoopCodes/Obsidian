@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac436094043e1f42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Automating Content Loading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "96b9a7ff2e34d5ae",
             "type": "leaf",
             "state": {
@@ -28,38 +16,7 @@
             }
           },
           {
-            "id": "6f15d87cb32ab62b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Getting database from Azure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b28b0d14944833c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next.js - Ballpark Estimator Koben.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "98b8268923c25368",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e911f076b5c54d3f",
+            "id": "d49180ac4c25373d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "54f835c1cd3899b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cozy Corners Book Cafe - Client Brief.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Getting database from Azure.md",
+                "file": "Cozy Corners Book Cafe - Client Brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Getting database from Azure.md",
+                "file": "Cozy Corners Book Cafe - Client Brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Getting database from Azure.md"
+                "file": "Cozy Corners Book Cafe - Client Brief.md"
               }
             }
           }
@@ -219,10 +189,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f15d87cb32ab62b",
+  "active": "54f835c1cd3899b6",
   "lastOpenFiles": [
-    "Next.js - Ballpark Estimator Koben.md",
     "CryptoFix UI/CryptoFix UI UX Project.md",
+    "Cozy Corners Book Cafe - Client Brief.md",
+    "Website Practice.md",
+    "Design Idea Generator.md",
+    "SEO.md",
+    "Getting database from Azure.md",
+    "Next.js - Ballpark Estimator Koben.md",
     "Automating Content Loading.md"
   ]
 }
