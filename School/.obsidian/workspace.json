@@ -8,109 +8,133 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2de80cae07032068",
+            "id": "edc8728ea4b1af71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security 1.md",
+                "file": "Art - IA2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4424f74471116793",
+            "id": "d477c1106e1eb5ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security 2.md",
+                "file": "English IA2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4ab7854c52078adc",
+            "id": "216a917b5f9a6326",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security 3.md",
+                "file": "Dream world content loading.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4db73e024d51ebe6",
+            "id": "05bba7af5e761526",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working with a Team 2.md",
+                "file": "Art - IA2 - Client Brief Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b9819e9a305e0191",
+            "id": "7dedfa5d574539ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working with a Team 1.md",
+                "file": "Art - IA2 - Client Brief.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8cfe8f406eb38297",
+            "id": "fcc8931c3c6d5c8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working with a Team.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e4a9683b40e241b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English IA5.md",
+                "file": "Prepare and serve non-alcoholic beverages.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
-        "id": "adfae00eb98edb41",
-        "type": "tabs",
+        "id": "d985831908507522",
+        "type": "split",
         "children": [
           {
-            "id": "3d5b0e88454e6f7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "English IA5 Tasksheet.md",
-                "mode": "source",
-                "source": false
+            "id": "f1f440ec1c85d8ff",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "95fb92cfee1268da",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dream world content loading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1c185e29bb27d59d",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2024-03-25 15.00.51.excalidraw.md"
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "4a90d4ab04e9c6c6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d5432f9f2a73ee39",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Dream world content loading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -129,7 +153,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -139,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#art",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,11 +205,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 292.5,
     "collapsed": true
   },
   "right": {
@@ -202,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English IA5.md",
+                "file": "Dream world content loading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English IA5.md",
+                "file": "Dream world content loading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English IA5.md"
+                "file": "Dream world content loading.md"
               }
             }
           },
@@ -257,12 +281,21 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "b4f0ef383d756af4",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 348.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -273,45 +306,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-wordy:Wordy view": false,
+      "marp-slides:Show Slide Preview": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "0e4a9683b40e241b",
+  "active": "216a917b5f9a6326",
   "lastOpenFiles": [
-    "English IA5 Tasksheet.md",
-    "English IA5.md",
-    "Working with a Team.md",
-    "Working with a Team 1.md",
-    "Working with a Team 2.md",
-    "Cyber Security 3.md",
-    "Cyber Security 2.md",
-    "Cyber Security 1.md",
-    "IA5 Teacher Questions.md",
-    "Mr. Ace Laptop.md",
+    "Excalidraw/Drawing 2024-03-25 15.00.51.excalidraw.md",
+    "Dream world content loading.md",
+    "Prepare and serve non-alcoholic beverages.md",
+    "Pasted image 20240325221756.png",
+    "Pasted image 20240325221554.png",
+    "English IA2.md",
+    "Pasted image 20240325170451.png",
+    "Pasted Image 20240325150107_152.png",
+    "Untitled 5.md",
+    "Pasted image 20240325123103.png",
+    "Art - IA2 - Client Brief.md",
+    "Art - IA2 - Client Brief Analysis.md",
+    "Art - IA2.md",
+    "Cooper Fieldhouse - General Math IA1.md",
+    "Sport & Rec IA5 - Final.md",
+    "Sport & Rec IA5 - Planning Log.md",
+    "Sport & Rec IA5 - Investigation.md",
+    "Testimonial.md",
+    "Math IA1 - Final.pdf",
+    "Excalidraw/Slamball Layout.md",
+    "School Captain Speech - Formal.md",
+    "School Captain Speech - Informal.md",
+    "Math IA1 - Planning.md",
+    "Encounter IA1.md",
+    "Australia Zoo.md",
+    "Pasted image 20240314230728.png",
+    "Pasted image 20240314225115.png",
+    "Pasted image 20240314224618.png",
+    "Pasted image 20240314224436.png",
+    "Pasted image 20240314224317.png",
+    "Untitled.canvas",
+    "Sport & Rec IA2.md",
     "Sport and rec IA5.md",
-    "Dulce et Decorum est.md",
-    "Safety Checklist.md",
-    "Food Safety Course.md",
-    "Untitled 4.md",
-    "12.1 Representations of War.md",
-    "Untitled 3.md",
-    "Pasted image 20231113144432.png",
-    "English Intro.md",
-    "English.md",
-    "Art Types.md",
-    "Untitled 2.md",
-    "Art Intro.md",
-    "Scrapbooking.md",
-    "Graffiti.md",
-    "Sketching.md",
-    "Graphic Design.md",
-    "snippets.css",
-    "snippets.txt",
-    "New Text Document.txt",
-    "ChatGPT_MD/chats",
-    "ChatGPT_MD",
-    "Pasted image 20231009174417.png",
-    "Untitled"
+    "Untitled 6.md",
+    "A guide to Rocco.md",
+    "Mum Card.md",
+    "IA2 Marketable Art.pdf",
+    "Math IA1 - Word Count testing.md",
+    "IA2 Marketable Art.pdf.crdownload",
+    "Presentaiotn.pptx",
+    "Presentaiotn.html",
+    "~$Math IA1.xlsx",
+    "gm-ia1-2024-task sheet.pdf",
+    "Math IA1.xlsx",
+    "~ew Microsoft Excel Worksheet.tmp",
+    "New Microsoft Excel Worksheet.xlsx"
   ]
 }

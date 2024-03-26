@@ -3,9 +3,20 @@
   "various-complements",
   "obsidian-html-tags-autocomplete",
   "chatgpt-md",
-  "table-editor-obsidian",
   "obsidian-tagfolder",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "colored-text"
+  "colored-text",
+  "obsidian-wordy",
+  "better-word-count",
+  "obsidian-style-settings",
+  "obsidian-underline",
+  "obsidian-functionplot",
+  "obsidian-timeline",
+  "marp-slides",
+  "obsidian-advanced-slides",
+  "obsidian-enhancing-export",
+  "obsidian-editor-shortcuts",
+  "copilot",
+  "mousewheel-image-zoom"
 ]

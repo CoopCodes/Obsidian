@@ -1,8 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Atom",
+  "cssTheme": "Border",
   "translucency": true,
-  "baseFontSize": 21,
+  "baseFontSize": 22,
   "textFontFamily": "Inter,General Sans Variable",
   "theme": "obsidian",
   "interfaceFontFamily": "General Sans Variable,DSEG14 Classic"

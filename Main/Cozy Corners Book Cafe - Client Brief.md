@@ -101,3 +101,5 @@ Calling all bibliophiles! Our Cozy Readers Club is an ever-growing community ded
 #### Place a Reservation / Order
 A simple form to allow customers to reserve a book and/or place a café order for pickup.
 
+
+Move the styling of each body part, to a useState() implementation

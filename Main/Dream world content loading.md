@@ -1,0 +1,8 @@
+- When using accesso, make sure to link to the page it's on, not to '/'
+- Change the spotlight text colors where required.
+- remove all inline styles
+- fix up cta buttons
+- Make the top titles which are h2 h1s
+- Check all backlinks.
+- 
+- Appearance is the same
