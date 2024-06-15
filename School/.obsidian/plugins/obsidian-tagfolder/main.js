@@ -34,7 +34,11 @@ __export(main_exports, {
 
 module.exports = __toCommonJS(main_exports);
 
-var import_obsidian8 = require("obsidian"), DEFAULT_SETTINGS = {
+var import_obsidian8 = require("obsidian"), enumShowListIn = {
+  "": "Sidebar",
+  CURRENT_PANE: "Current pane",
+  SPLIT_PANE: "New pane"
+}, DEFAULT_SETTINGS = {
   displayMethod: "NAME",
   alwaysOpen: false,
   ignoreDocTags: "",
@@ -75,7 +79,8 @@ var import_obsidian8 = require("obsidian"), DEFAULT_SETTINGS = {
     }
   },
   linkShowOnlyFDR: true,
-  linkCombineOtherTree: true
+  linkCombineOtherTree: true,
+  showListIn: ""
 }, VIEW_TYPE_SCROLL = "tagfolder-view-scroll", EPOCH_MINUTE = 60, EPOCH_HOUR = 60 * EPOCH_MINUTE, EPOCH_DAY = 24 * EPOCH_HOUR, FRESHNESS_1 = "FRESHNESS_01", FRESHNESS_2 = "FRESHNESS_02", FRESHNESS_3 = "FRESHNESS_03", FRESHNESS_4 = "FRESHNESS_04", FRESHNESS_5 = "FRESHNESS_05", tagDispDict = {
   FRESHNESS_01: "🕐",
   FRESHNESS_02: "📖",
@@ -555,7 +560,7 @@ function make_dirty(component, i) {
   component.$$.dirty[i / 31 | 0] |= 1 << i % 31;
 }
 
-function init(component, options, instance7, create_fragment7, not_equal, props, append_styles2, dirty = [ -1 ]) {
+function init(component, options, instance7, create_fragment7, not_equal, props, append_styles2 = null, dirty = [ -1 ]) {
   const parent_component = current_component;
   set_current_component(component);
   const $$ = component.$$ = {
@@ -663,12 +668,16 @@ if ("function" == typeof HTMLElement) SvelteElement = class extends HTMLElement 
         };
       };
       await Promise.resolve();
-      if (!this.$$cn) return;
+      if (!this.$$cn || this.$$c) return;
       const $$slots = {}, existing_slots = get_custom_elements_slots(this);
       for (const name of this.$$s) if (name in existing_slots) $$slots[name] = [ create_slot2(name) ];
       for (const attribute of this.attributes) {
         const name = this.$$g_p(attribute.name);
         if (!(name in this.$$d)) this.$$d[name] = get_custom_element_value(name, attribute.value, this.$$p_d, "toProp");
+      }
+      for (const key in this.$$p_d) if (!(key in this.$$d) && void 0 !== this[key]) {
+        this.$$d[key] = this[key];
+        delete this[key];
       }
       this.$$c = new this.$$ctor({
         target: this.shadowRoot || this,
@@ -686,7 +695,7 @@ if ("function" == typeof HTMLElement) SvelteElement = class extends HTMLElement 
           this.$$d[key] = this.$$c.$$.ctx[this.$$c.$$.props[key]];
           if (this.$$p_d[key].reflect) {
             const attribute_value = get_custom_element_value(key, this.$$d[key], this.$$p_d, "toAttribute");
-            if (null == attribute_value) this.removeAttribute(key); else this.setAttribute(this.$$p_d[key].attribute || key, attribute_value);
+            if (null == attribute_value) this.removeAttribute(this.$$p_d[key].attribute || key); else this.setAttribute(this.$$p_d[key].attribute || key, attribute_value);
           }
         }
         this.$$r = false;
@@ -921,7 +930,13 @@ var doEvents = () => new Promise((res => {
     res();
   }));
   pump();
-})), compare = Intl && Intl.Collator ? (new Intl.Collator).compare : (x, y) => `${null != x ? x : ""}`.localeCompare(`${null != y ? y : ""}`);
+}));
+
+function compare(x, y) {
+  return `${x || ""}`.localeCompare(y, void 0, {
+    numeric: true
+  });
+}
 
 function getTagName(tagName, subtreePrefix, tagInfo2, invert) {
   if (null == tagInfo2) return tagName;
@@ -981,8 +996,8 @@ function selectCompareMethodTags(settings, tagInfo2) {
    default:
     console.warn("Compare method (tags) corrupted");
     return (a, b) => {
-      const isASubTree = "" == a[V2FI_IDX_TAGDISP][0], isBSubTree = "" == b[V2FI_IDX_TAGDISP][0], aName = a[V2FI_IDX_TAGNAME], bName = b[V2FI_IDX_TAGNAME], aPrefix = isASubTree ? subTreeChar[invert] : "", bPrefix = isBSubTree ? subTreeChar[invert] : "";
-      return compare(aPrefix + aName, bPrefix + bName) * invert;
+      const isASubTree = "" == a[V2FI_IDX_TAGDISP][0], isBSubTree = "" == b[V2FI_IDX_TAGDISP][0], aName = a[V2FI_IDX_TAGNAME], bName = b[V2FI_IDX_TAGNAME];
+      return compare((isASubTree ? subTreeChar[invert] : "") + aName, (isBSubTree ? subTreeChar[invert] : "") + bName) * invert;
     };
   }
 }
@@ -1210,14 +1225,14 @@ function create_fragment(ctx) {
     },
     m(target, anchor) {
       insert(target, div, anchor);
-      ctx[4](div);
+      ctx[5](div);
     },
     p: noop,
     i: noop,
     o: noop,
     d(detaching) {
       if (detaching) detach(div);
-      ctx[4](null);
+      ctx[5](null);
     }
   };
 }
@@ -1225,11 +1240,11 @@ function create_fragment(ctx) {
 function instance($$self, $$props, $$invalidate) {
   let el, {file = {
     path: ""
-  }} = $$props, {observer} = $$props, renderedContent = "";
+  }} = $$props, {observer} = $$props, {plugin} = $$props, renderedContent = "";
   function onAppearing(_) {
     if (file.content && el && renderedContent != file.content) {
-      import_obsidian.MarkdownRenderer.renderMarkdown(file.content, el, file.path, null);
-      $$invalidate(3, renderedContent = file.content);
+      import_obsidian.MarkdownRenderer.render(plugin.app, file.content, el, file.path, plugin);
+      $$invalidate(4, renderedContent = file.content);
     }
   }
   onMount((() => {
@@ -1243,20 +1258,21 @@ function instance($$self, $$props, $$invalidate) {
   $$self.$$set = $$props2 => {
     if ("file" in $$props2) $$invalidate(1, file = $$props2.file);
     if ("observer" in $$props2) $$invalidate(2, observer = $$props2.observer);
+    if ("plugin" in $$props2) $$invalidate(3, plugin = $$props2.plugin);
   };
   $$self.$$.update = () => {
-    if (11 & $$self.$$.dirty) if (renderedContent && file && file.content && el && renderedContent != file.content) {
+    if (27 & $$self.$$.dirty) if (renderedContent && file && file.content && el && renderedContent != file.content) {
       $$invalidate(0, el.style.minHeight = `${el.clientHeight}px`, el);
       $$invalidate(0, el.innerHTML = "", el);
-      import_obsidian.MarkdownRenderer.renderMarkdown(file.content, el, file.path, null);
-      $$invalidate(3, renderedContent = file.content);
+      import_obsidian.MarkdownRenderer.render(plugin.app, file.content, el, file.path, plugin);
+      $$invalidate(4, renderedContent = file.content);
       $$invalidate(0, el.style.minHeight = "20px", el);
     }
   };
-  return [ el, file, observer, renderedContent, function div_binding($$value) {
+  return [ el, file, observer, plugin, renderedContent, function div_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"]((() => {
       el = $$value;
-      $$invalidate(0, el), $$invalidate(3, renderedContent), $$invalidate(1, file);
+      $$invalidate(0, el), $$invalidate(4, renderedContent), $$invalidate(1, file), $$invalidate(3, plugin);
     }));
   } ];
 }
@@ -1266,7 +1282,8 @@ var ScrollViewMarkdownComponent = class extends SvelteComponent {
     super();
     init(this, options, instance, create_fragment, safe_not_equal, {
       file: 1,
-      observer: 2
+      observer: 2,
+      plugin: 3
     }, add_css);
   }
 }, ScrollViewMarkdownComponent_default = ScrollViewMarkdownComponent;
@@ -1277,20 +1294,21 @@ function add_css2(target) {
 
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[11] = list[i];
+  child_ctx[12] = list[i];
   return child_ctx;
 }
 
 function create_each_block(ctx) {
-  let div1, div0, span0, t0, t1, span1, t2, t3, t4, t5, scrollviewmarkdown, t6, hr, t7, current, mounted, dispose, t0_value = ctx[11].title + "", t3_value = ctx[11].path + "";
+  let div1, div0, span0, t0, t1, span1, t2, t3, t4, t5, scrollviewmarkdown, t6, hr, t7, current, mounted, dispose, t0_value = ctx[12].title + "", t3_value = ctx[12].path + "";
   scrollviewmarkdown = new ScrollViewMarkdownComponent_default({
     props: {
-      file: ctx[11],
-      observer: ctx[1]
+      file: ctx[12],
+      observer: ctx[2],
+      plugin: ctx[0]
     }
   });
   function click_handler(...args) {
-    return ctx[8](ctx[11], ...args);
+    return ctx[9](ctx[12], ...args);
   }
   return {
     c() {
@@ -1328,7 +1346,7 @@ function create_each_block(ctx) {
       append(div1, t6);
       append(div1, hr);
       append(div1, t7);
-      ctx[9](div1);
+      ctx[10](div1);
       current = true;
       if (!mounted) {
         dispose = listen(div1, "click", click_handler);
@@ -1337,11 +1355,12 @@ function create_each_block(ctx) {
     },
     p(new_ctx, dirty) {
       ctx = new_ctx;
-      if ((!current || 8 & dirty) && t0_value !== (t0_value = ctx[11].title + "")) set_data(t0, t0_value);
-      if ((!current || 8 & dirty) && t3_value !== (t3_value = ctx[11].path + "")) set_data(t3, t3_value);
+      if ((!current || 16 & dirty) && t0_value !== (t0_value = ctx[12].title + "")) set_data(t0, t0_value);
+      if ((!current || 16 & dirty) && t3_value !== (t3_value = ctx[12].path + "")) set_data(t3, t3_value);
       const scrollviewmarkdown_changes = {};
-      if (8 & dirty) scrollviewmarkdown_changes.file = ctx[11];
-      if (2 & dirty) scrollviewmarkdown_changes.observer = ctx[1];
+      if (16 & dirty) scrollviewmarkdown_changes.file = ctx[12];
+      if (4 & dirty) scrollviewmarkdown_changes.observer = ctx[2];
+      if (1 & dirty) scrollviewmarkdown_changes.plugin = ctx[0];
       scrollviewmarkdown.$set(scrollviewmarkdown_changes);
     },
     i(local) {
@@ -1357,7 +1376,7 @@ function create_each_block(ctx) {
     d(detaching) {
       if (detaching) detach(div1);
       destroy_component(scrollviewmarkdown);
-      ctx[9](null);
+      ctx[10](null);
       mounted = false;
       dispose();
     }
@@ -1365,7 +1384,7 @@ function create_each_block(ctx) {
 }
 
 function create_fragment2(ctx) {
-  let div1, div0, t0, t1, t2, hr, t3, current, each_value = ensure_array_like(ctx[3]), each_blocks = [];
+  let div1, div0, t0, t1, t2, hr, t3, current, each_value = ensure_array_like(ctx[4]), each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
   const out = i => transition_out(each_blocks[i], 1, 1, (() => {
     each_blocks[i] = null;
@@ -1375,7 +1394,7 @@ function create_fragment2(ctx) {
       div1 = element("div");
       div0 = element("div");
       t0 = text("Files with ");
-      t1 = text(ctx[2]);
+      t1 = text(ctx[3]);
       t2 = space();
       hr = element("hr");
       t3 = space();
@@ -1396,9 +1415,9 @@ function create_fragment2(ctx) {
       current = true;
     },
     p(ctx2, [dirty]) {
-      if (!current || 4 & dirty) set_data(t1, ctx2[2]);
-      if (27 & dirty) {
-        each_value = ensure_array_like(ctx2[3]);
+      if (!current || 8 & dirty) set_data(t1, ctx2[3]);
+      if (55 & dirty) {
+        each_value = ensure_array_like(ctx2[4]);
         let i;
         for (i = 0; i < each_value.length; i += 1) {
           const child_ctx = get_each_context(ctx2, each_value, i);
@@ -1440,7 +1459,7 @@ function instance2($$self, $$props, $$invalidate) {
     files: [],
     title: "",
     tagPath: ""
-  })} = $$props, {openfile} = $$props, state = {
+  })} = $$props, {openfile} = $$props, {plugin} = $$props, state = {
     files: [],
     title: "",
     tagPath: ""
@@ -1453,7 +1472,7 @@ function instance2($$self, $$props, $$invalidate) {
     detail: {}
   });
   onMount((() => {
-    $$invalidate(1, observer = new IntersectionObserver((entries => {
+    $$invalidate(2, observer = new IntersectionObserver((entries => {
       for (const entry of entries) if (entry.isIntersecting) entry.target.dispatchEvent(onAppearing);
     }), {
       root: scrollEl,
@@ -1465,23 +1484,24 @@ function instance2($$self, $$props, $$invalidate) {
     observer.disconnect();
   }));
   $$self.$$set = $$props2 => {
-    if ("store" in $$props2) $$invalidate(5, store = $$props2.store);
-    if ("openfile" in $$props2) $$invalidate(6, openfile = $$props2.openfile);
+    if ("store" in $$props2) $$invalidate(6, store = $$props2.store);
+    if ("openfile" in $$props2) $$invalidate(7, openfile = $$props2.openfile);
+    if ("plugin" in $$props2) $$invalidate(0, plugin = $$props2.plugin);
   };
   $$self.$$.update = () => {
-    if (32 & $$self.$$.dirty) store.subscribe((_state => {
-      $$invalidate(7, state = {
+    if (64 & $$self.$$.dirty) store.subscribe((_state => {
+      $$invalidate(8, state = {
         ..._state
       });
       return () => {};
     }));
-    if (128 & $$self.$$.dirty) $$invalidate(3, files = state.files);
-    if (128 & $$self.$$.dirty) $$invalidate(2, tagPath = state.tagPath.split(", ").map((e => "#" + trimTrailingSlash(e).split("/").map((e2 => renderSpecialTag(e2.trim()))).join("/"))).join(", "));
+    if (256 & $$self.$$.dirty) $$invalidate(4, files = state.files);
+    if (256 & $$self.$$.dirty) $$invalidate(3, tagPath = state.tagPath.split(", ").map((e => "#" + trimTrailingSlash(e).split("/").map((e2 => renderSpecialTag(e2.trim()))).join("/"))).join(", "));
   };
-  return [ scrollEl, observer, tagPath, files, handleOpenFile, store, openfile, state, (file, evt) => handleOpenFile(evt, file), function div1_binding($$value) {
+  return [ plugin, scrollEl, observer, tagPath, files, handleOpenFile, store, openfile, state, (file, evt) => handleOpenFile(evt, file), function div1_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"]((() => {
       scrollEl = $$value;
-      $$invalidate(0, scrollEl);
+      $$invalidate(1, scrollEl);
     }));
   } ];
 }
@@ -1490,18 +1510,22 @@ var ScrollViewComponent = class extends SvelteComponent {
   constructor(options) {
     super();
     init(this, options, instance2, create_fragment2, safe_not_equal, {
-      store: 5,
-      openfile: 6
+      store: 6,
+      openfile: 7,
+      plugin: 0
     }, add_css2);
   }
 }, ScrollViewComponent_default = ScrollViewComponent, ScrollView = class extends import_obsidian2.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
+    this.icon = "sheets-in-box";
     this.state = {
       files: [],
       title: "",
       tagPath: ""
     };
+    this.title = "";
+    this.navigation = true;
     this.plugin = plugin;
     this.store = writable({
       files: [],
@@ -1567,12 +1591,14 @@ var ScrollViewComponent = class extends SvelteComponent {
       target: this.contentEl,
       props: {
         store: this.store,
-        openfile: this.plugin.focusFile
+        openfile: this.plugin.focusFile,
+        plugin: this.plugin
       }
     });
   }
   async onClose() {
-    this.component.$destroy();
+    var _a;
+    null == (_a = this.component) || _a.$destroy();
   }
 }, import_obsidian6 = require("obsidian");
 
@@ -1940,7 +1966,7 @@ function get_each_context2(ctx, list, i) {
 
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[69] = list[i];
+  child_ctx[71] = list[i];
   return child_ctx;
 }
 
@@ -1952,10 +1978,10 @@ function get_each_context_2(ctx, list, i) {
 
 function get_each_context_3(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[74] = list[i][0];
+  child_ctx[76] = list[i][0];
   child_ctx[0] = list[i][1];
   child_ctx[1] = list[i][2];
-  child_ctx[75] = list[i][3];
+  child_ctx[77] = list[i][3];
   return child_ctx;
 }
 
@@ -1989,7 +2015,7 @@ function create_else_block(ctx) {
     p(ctx2, dirty) {
       const ondemandrender_changes = {};
       if (33554448 & dirty[0]) ondemandrender_changes.cssClass = `tree-item-self${!ctx2[4] ? " is-clickable mod-collapsible" : ""} nav-folder-title tag-folder-title${ctx2[25] ? " is-active" : ""}`;
-      if (96616584 & dirty[0] | 65536 & dirty[2]) ondemandrender_changes.$$scope = {
+      if (96616584 & dirty[0] | 262144 & dirty[2]) ondemandrender_changes.$$scope = {
         dirty,
         ctx: ctx2
       };
@@ -2328,9 +2354,9 @@ function create_each_block_3(ctx) {
   v2treefoldercomponent = new V2TreeFolderComponent({
     props: {
       viewType: ctx[2],
-      items: ctx[75],
-      thisName: ctx[74],
-      trail: [ ...ctx[3], ...ctx[16], ctx[74] ],
+      items: ctx[77],
+      thisName: ctx[76],
+      trail: [ ...ctx[3], ...ctx[16], ctx[76] ],
       folderIcon: ctx[7],
       openFile: ctx[10],
       isRoot: false,
@@ -2354,9 +2380,9 @@ function create_each_block_3(ctx) {
     p(ctx2, dirty) {
       const v2treefoldercomponent_changes = {};
       if (4 & dirty[0]) v2treefoldercomponent_changes.viewType = ctx2[2];
-      if (262144 & dirty[0]) v2treefoldercomponent_changes.items = ctx2[75];
-      if (262144 & dirty[0]) v2treefoldercomponent_changes.thisName = ctx2[74];
-      if (327688 & dirty[0]) v2treefoldercomponent_changes.trail = [ ...ctx2[3], ...ctx2[16], ctx2[74] ];
+      if (262144 & dirty[0]) v2treefoldercomponent_changes.items = ctx2[77];
+      if (262144 & dirty[0]) v2treefoldercomponent_changes.thisName = ctx2[76];
+      if (327688 & dirty[0]) v2treefoldercomponent_changes.trail = [ ...ctx2[3], ...ctx2[16], ctx2[76] ];
       if (128 & dirty[0]) v2treefoldercomponent_changes.folderIcon = ctx2[7];
       if (1024 & dirty[0]) v2treefoldercomponent_changes.openFile = ctx2[10];
       if (512 & dirty[0]) v2treefoldercomponent_changes.showMenu = ctx2[9];
@@ -2443,7 +2469,7 @@ function create_each_block_1(ctx) {
   let treeitemitemcomponent, current;
   treeitemitemcomponent = new V2TreeItemComponent_default({
     props: {
-      item: ctx[69],
+      item: ctx[71],
       openFile: ctx[10],
       trail: ctx[4] ? [ ...ctx[3] ] : [ ...ctx[3], ...ctx[16] ],
       showMenu: ctx[9],
@@ -2460,7 +2486,7 @@ function create_each_block_1(ctx) {
     },
     p(ctx2, dirty) {
       const treeitemitemcomponent_changes = {};
-      if (524288 & dirty[0]) treeitemitemcomponent_changes.item = ctx2[69];
+      if (524288 & dirty[0]) treeitemitemcomponent_changes.item = ctx2[71];
       if (1024 & dirty[0]) treeitemitemcomponent_changes.openFile = ctx2[10];
       if (65560 & dirty[0]) treeitemitemcomponent_changes.trail = ctx2[4] ? [ ...ctx2[3] ] : [ ...ctx2[3], ...ctx2[16] ];
       if (512 & dirty[0]) treeitemitemcomponent_changes.showMenu = ctx2[9];
@@ -2644,9 +2670,9 @@ function splitArrayToBatch(items) {
 
 function instance5($$self, $$props, $$invalidate) {
   let filename, trailKey, collapsed, sortFunc, trailLower, isActive, classKey, tagsDispHtml, itemCount, draggable, $tagFolderSetting, $v2expandedTags;
-  component_subscribe($$self, tagFolderSetting, ($$value => $$invalidate(60, $tagFolderSetting = $$value)));
+  component_subscribe($$self, tagFolderSetting, ($$value => $$invalidate(61, $tagFolderSetting = $$value)));
   component_subscribe($$self, v2expandedTags, ($$value => $$invalidate(51, $v2expandedTags = $$value)));
-  var _a, _b;
+  var _a, _b, _c;
   let {viewType = "tags"} = $$props, {thisName = ""} = $$props, {items = []} = $$props, _items = [], {tagName = ""} = $$props, {tagNameDisp = []} = $$props, {trail = []} = $$props, {isRoot} = $$props, {isMainTree} = $$props, {depth = 1} = $$props, {folderIcon = ""} = $$props, {headerTitle = ""} = $$props, {showMenu} = $$props, {openFile} = $$props, {hoverPreview} = $$props, {openScrollView} = $$props;
   v2expandedTags.subscribe((expTags => {
     if (null == trailKey) return;
@@ -2668,10 +2694,12 @@ function instance5($$self, $$props, $$invalidate) {
     $$invalidate(38, _currentActiveFilePath = path);
   }));
   function handleOpenScroll(e, trails, filePaths) {
-    if ("tags" == viewType) openScrollView(null, "", joinPartialPath(removeIntermediatePath(trails)).join(", "), filePaths); else if ("links" == viewType) openScrollView(null, "", `Linked to ${filename}`, filePaths);
+    if ("tags" == viewType) openScrollView(void 0, "", joinPartialPath(removeIntermediatePath(trails)).join(", "), filePaths); else if ("links" == viewType) openScrollView(void 0, "", `Linked to ${filename}`, filePaths);
     e.preventDefault();
   }
-  let thisInfo, tags = [], isInDedicatedTag = false, previousTrail = "", isSuppressibleLevel = false, suppressLevels = [], children2 = [], childrenDisp = [], leftOverItems = [], leftOverItemsDisp = [], tagsDisp = [], thisLinks = [], linkedItems = new Map, _lastParam = {}, isUpdating = false, isFolderVisible = false, queueLeftOverItems = [], batchedLeftOverItems = [];
+  let thisInfo, tags = [], isInDedicatedTag = false, previousTrail = "", isSuppressibleLevel = false, suppressLevels = [], children2 = [], childrenDisp = [], leftOverItems = [], leftOverItemsDisp = [], tagsDisp = [], thisLinks = [], linkedItems = new Map, _lastParam = {}, isUpdating = false;
+  const viewContextID = `${null !== (_b = getContext("viewID")) && void 0 !== _b ? _b : ""}`;
+  let isFolderVisible = false, queueLeftOverItems = [], batchedLeftOverItems = [];
   async function applyLeftOverItems(items2) {
     if (0 == batchedLeftOverItems.length) if (0 == leftOverItemsDisp.length) try {
       const allOfBatch = splitArrayToBatch(items2);
@@ -2801,6 +2829,7 @@ function instance5($$self, $$props, $$invalidate) {
           } else {
             const lastTrailTagLC = trimTrailingSlash(previousTrail).toLowerCase();
             if (isInDedicatedTag && tagsAll.some((e => e.toLowerCase() == lastTrailTagLC))) $$invalidate(15, isInDedicatedTag = false);
+            if (!isRoot || _setting.expandUntaggedToRoot) tagsAll = tagsAll.filter((e => "_untagged" != e));
             let existTags = [ ...tagsAll ];
             existTags = existTags.filter((tag => trail.every((trail2 => trimTrailingSlash(tag.toLowerCase()) !== trimTrailingSlash(trail2.toLowerCase())))));
             existTags = existTags.filter((tag => tag.toLowerCase() != thisName.toLowerCase() && tag.toLowerCase() != tagName.toLowerCase()));
@@ -2827,7 +2856,7 @@ function instance5($$self, $$props, $$invalidate) {
                 const idx = e.indexOf("/");
                 if (idx < 1) return e;
                 let piece = e.substring(0, idx + 1), idx2 = idx;
-                for (;removeItems.contains(piece.toLowerCase()); ) {
+                for (;removeItems.some((e2 => e2.startsWith(piece.toLowerCase()))); ) {
                   idx2 = e.indexOf("/", idx2 + 1);
                   if (-1 === idx2) {
                     piece = e;
@@ -2840,7 +2869,7 @@ function instance5($$self, $$props, $$invalidate) {
               const trailShortest = removeIntermediatePath(trail);
               existTagsFiltered1 = tagsOnNextLevel.filter((tag => trailShortest.every((trail2 => trimTrailingSlash(tag.toLowerCase()) !== trimTrailingSlash(trail2.toLowerCase())))));
             }
-            if (isMixedDedicatedTag) existTagsFiltered1 = existTagsFiltered1.map((e => e.replace(escapedPreviousTrail, previousTrail)));
+            if (isMixedDedicatedTag || isInDedicatedTag) existTagsFiltered1 = existTagsFiltered1.map((e => e.replace(escapedPreviousTrail, previousTrail)));
             const existTagsFiltered1LC = existTagsFiltered1.map((e => e.toLowerCase())), existTagsFiltered3 = uniqueCaseIntensive(existTagsFiltered1.map((e => existTagsFiltered1LC.contains(e.toLowerCase() + "/") ? e + "/" : e)));
             if (previousTrail.endsWith("/")) {
               const existTagsFiltered4 = [];
@@ -2865,7 +2894,7 @@ function instance5($$self, $$props, $$invalidate) {
         }));
       }
     })({
-      key: trailKey + (isRoot ? "-r" : "-x"),
+      key: trailKey + (isRoot ? "-r" : "-x") + viewContextID,
       expandLimit,
       depth,
       tags,
@@ -2890,7 +2919,7 @@ function instance5($$self, $$props, $$invalidate) {
     if (98306 & $$self.$$.dirty[0] | 1024 & $$self.$$.dirty[1]) if (isSuppressibleLevel && isInDedicatedTag) $$invalidate(44, tagsDisp = [ [ ...tagNameDisp, ...suppressLevels.flatMap((e => e.split("/").map((e2 => renderSpecialTag(e2))))) ] ]); else if (isSuppressibleLevel) $$invalidate(44, tagsDisp = [ tagNameDisp, ...suppressLevels.map((e => e.split("/").map((e2 => renderSpecialTag(e2))))) ]); else $$invalidate(44, tagsDisp = [ tagNameDisp ]);
     if (4 & $$self.$$.dirty[0]) $$invalidate(47, classKey = "links" == viewType ? " tf-link" : " tf-tag");
     if (131072 & $$self.$$.dirty[0] | 73728 & $$self.$$.dirty[1]) $$invalidate(24, tagsDispHtml = isFolderVisible ? tagsDisp.map((e => `<span class="tagfolder-tag tag-tag${classKey}">${e.map((ee => `<span class="tf-tag-each">${escapeStringToHTML(ee)}</span>`)).join("")}</span>`)).join("") : "");
-    if (16388 & $$self.$$.dirty[0] | 4360 & $$self.$$.dirty[1]) $$invalidate(23, itemCount = "tags" == viewType ? null !== $$invalidate(34, _b = null == _items ? void 0 : _items.length) && void 0 !== _b ? _b : 0 : tags.length + leftOverItems.length);
+    if (16388 & $$self.$$.dirty[0] | 4360 & $$self.$$.dirty[1]) $$invalidate(23, itemCount = "tags" == viewType ? null !== $$invalidate(34, _c = null == _items ? void 0 : _items.length) && void 0 !== _c ? _c : 0 : tags.length + leftOverItems.length);
     if (4096 & $$self.$$.dirty[1]) applyLeftOverItems(leftOverItems);
     if (2048 & $$self.$$.dirty[1]) applyChildren(children2);
     if (16 & $$self.$$.dirty[1]) $$invalidate(22, draggable = !_setting.disableDragging);
@@ -2928,7 +2957,7 @@ function instance5($$self, $$props, $$invalidate) {
       evt.stopPropagation();
       openFile(filename, evt.metaKey || evt.ctrlKey);
     }
-  }, thisName, _a, _b, _setting, expandLimit, _tagInfo, _currentActiveFilePath, tags, previousTrail, isSuppressibleLevel, children2, leftOverItems, tagsDisp, thisLinks, thisInfo, classKey, sortFunc, trailLower, trailKey, $v2expandedTags, e => handleOpenScroll(e, trail, _items.map((e2 => e2.path))), function ondemandrender_isVisible_binding(value) {
+  }, thisName, _a, _c, _setting, expandLimit, _tagInfo, _currentActiveFilePath, tags, previousTrail, isSuppressibleLevel, children2, leftOverItems, tagsDisp, thisLinks, thisInfo, classKey, sortFunc, trailLower, trailKey, $v2expandedTags, e => handleOpenScroll(e, trail, _items.map((e2 => e2.path))), function ondemandrender_isVisible_binding(value) {
     isFolderVisible = value;
     $$invalidate(17, isFolderVisible);
   }, evt => {
@@ -3101,9 +3130,10 @@ function create_if_block_12(ctx) {
 }
 
 function create_if_block3(ctx) {
-  let div1, input, t, div0, mounted, dispose;
+  let div2, div1, input, t, div0, mounted, dispose;
   return {
     c() {
+      div2 = element("div");
       div1 = element("div");
       input = element("input");
       t = space();
@@ -3114,10 +3144,12 @@ function create_if_block3(ctx) {
       attr(div0, "class", "search-input-clear-button");
       attr(div0, "aria-label", "Clear search");
       set_style(div0, "display", "" == ctx[10].trim() ? "none" : "");
-      attr(div1, "class", "search-input-container");
+      attr(div1, "class", "search-input-container global-search-input-container");
+      attr(div2, "class", "search-row");
     },
     m(target, anchor) {
-      insert(target, div1, anchor);
+      insert(target, div2, anchor);
+      append(div2, div1);
       append(div1, input);
       set_input_value(input, ctx[10]);
       append(div1, t);
@@ -3132,7 +3164,7 @@ function create_if_block3(ctx) {
       if (1024 & dirty[0]) set_style(div0, "display", "" == ctx2[10].trim() ? "none" : "");
     },
     d(detaching) {
-      if (detaching) detach(div1);
+      if (detaching) detach(div2);
       mounted = false;
       run_all(dispose);
     }
@@ -3342,7 +3374,7 @@ function instance6($$self, $$props, $$invalidate) {
     observer = new IntersectionObserver((ex => {
       for (const v of ex) if (observingElements.has(v.target)) {
         const tg = observingElements.get(v.target);
-        if (tg.lastState !== v.isIntersecting) {
+        if (tg && tg.lastState !== v.isIntersecting) {
           tg.lastState = v.isIntersecting;
           setTimeout((() => tg.callback(v.isIntersecting)), 10);
         }
@@ -3385,6 +3417,7 @@ function instance6($$self, $$props, $$invalidate) {
     observer.disconnect();
   }));
   let scrollParent, viewItems = [];
+  setContext("viewID", `${Math.random()}`);
   $$self.$$set = $$props2 => {
     if ("hoverPreview" in $$props2) $$invalidate(0, hoverPreview = $$props2.hoverPreview);
     if ("openFile" in $$props2) $$invalidate(1, openFile = $$props2.openFile);
@@ -3503,12 +3536,13 @@ var TagFolderViewComponent = class extends SvelteComponent {
     });
   }
   onChooseSuggestion(item, evt) {
-    this.callback(item);
-    this.callback = null;
+    var _a;
+    null == (_a = this.callback) || _a.call(this, item);
+    this.callback = void 0;
   }
   onClose() {
     setTimeout((() => {
-      if (null != this.callback) this.callback(false);
+      if (this.callback) this.callback(false);
     }), 100);
   }
 };
@@ -3657,7 +3691,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
           menu.addItem((item => {
             item.setTitle("Open scroll view").setIcon("sheets-in-box").onClick((async () => {
               const files = targetItems.map((e => e.path));
-              await this.plugin.openScrollView(null, displayExpandedTags, expandedTagsAll.join(", "), files);
+              await this.plugin.openScrollView(void 0, displayExpandedTags, expandedTagsAll.join(", "), files);
             }));
           }));
           menu.addItem((item => {
@@ -3678,7 +3712,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
       menu.addItem((item => item.setTitle("Open to the right").setSection("open").setIcon("lucide-separator-vertical").onClick((async () => {
         app.workspace.openLinkText(path, path, "split");
       }))));
-    } else if (!isTagTree) {
+    } else if (!isTagTree && targetTag) {
       const path = targetTag, file = this.app.vault.getAbstractFileByPath(path);
       this.app.workspace.trigger("file-menu", menu, file, "file-explorer");
       menu.addSeparator();
@@ -3708,6 +3742,7 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
 }, TagFolderView = class extends TagFolderViewBase {
   constructor(leaf, plugin, viewType) {
     super(leaf);
+    this.icon = "stacked-levels";
     this.plugin = plugin;
     this.showMenu = this.showMenu.bind(this);
     this.showOrder = this.showOrder.bind(this);
@@ -3754,6 +3789,8 @@ var TagFolderViewBase = class extends import_obsidian5.ItemView {
 }, import_obsidian7 = require("obsidian"), TagFolderList = class extends TagFolderViewBase {
   constructor(leaf, plugin) {
     super(leaf);
+    this.icon = "stacked-levels";
+    this.title = "";
     this.state = {
       tags: [],
       title: ""
@@ -3960,6 +3997,7 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
         await this.initView();
         await this.activateView();
       }
+      if (this.settings.useTagInfo) await this.loadTagInfo();
     }));
     this.addCommand({
       id: "tagfolder-open",
@@ -4012,9 +4050,6 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     this.watchWorkspaceOpen(this.app.workspace.getActiveFile());
     this.addSettingTab(new TagFolderSettingTab(this.app, this));
     maxDepth.set(this.settings.expandLimit);
-    if (this.settings.useTagInfo) this.app.workspace.onLayoutReady((async () => {
-      await this.loadTagInfo();
-    }));
     searchString.subscribe((search => {
       this.searchString = search;
       this.refreshAllTree();
@@ -4032,13 +4067,19 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
       }
     };
     this.register(onElement(document, "click", 'a.tag[href^="#"]', ((event, targetEl) => {
+      var _a;
       if (!this.settings.overrideTagClicking) return;
       const tagString = targetEl.innerText.substring(1);
-      if (tagString) setTagSearchString(event, tagString);
+      if (tagString) {
+        setTagSearchString(event, tagString);
+        const leaf = null == (_a = this.getView()) ? void 0 : _a.leaf;
+        if (leaf) this.app.workspace.revealLeaf(leaf);
+      }
     }), {
       capture: true
     }));
     this.register(onElement(document, "click", "span.cm-hashtag.cm-meta", ((event, targetEl) => {
+      var _a;
       if (!this.settings.overrideTagClicking) return;
       let enumTags = targetEl, tagString = "";
       for (;!enumTags.classList.contains("cm-hashtag-begin"); ) {
@@ -4057,6 +4098,8 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
       } while (enumTags);
       tagString = tagString.substring(1);
       setTagSearchString(event, tagString);
+      const leaf = null == (_a = this.getView()) ? void 0 : _a.leaf;
+      if (leaf) this.app.workspace.revealLeaf(leaf);
     }), {
       capture: true
     }));
@@ -4328,13 +4371,14 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     }
   }
   async _initTagView() {
+    var _a;
     const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER);
-    if (0 == leaves.length) await this.app.workspace.getLeftLeaf(false).setViewState({
+    if (0 == leaves.length) await (null == (_a = this.app.workspace.getLeftLeaf(false)) ? void 0 : _a.setViewState({
       type: VIEW_TYPE_TAGFOLDER,
       state: {
         treeViewType: "tags"
       }
-    }); else {
+    })); else {
       const newState = leaves[0].getViewState();
       leaves[0].setViewState({
         type: VIEW_TYPE_TAGFOLDER,
@@ -4346,13 +4390,14 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     }
   }
   async _initLinkView() {
+    var _a;
     const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER_LINK);
-    if (0 == leaves.length) await this.app.workspace.getLeftLeaf(false).setViewState({
+    if (0 == leaves.length) await (null == (_a = this.app.workspace.getLeftLeaf(false)) ? void 0 : _a.setViewState({
       type: VIEW_TYPE_TAGFOLDER_LINK,
       state: {
         treeViewType: "links"
       }
-    }); else {
+    })); else {
       const newState = leaves[0].getViewState();
       leaves[0].setViewState({
         type: VIEW_TYPE_TAGFOLDER_LINK,
@@ -4472,7 +4517,20 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     if (!theLeaf) {
       const parent = null == (_a = this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)) ? void 0 : _a.first();
       if (!parent) return;
-      if (!import_obsidian8.Platform.isMobile) theLeaf = this.app.workspace.createLeafBySplit(parent, "horizontal", false); else theLeaf = this.app.workspace.getLeftLeaf(false);
+      switch (this.settings.showListIn) {
+       case "CURRENT_PANE":
+        theLeaf = this.app.workspace.getLeaf();
+        break;
+
+       case "SPLIT_PANE":
+        theLeaf = this.app.workspace.getLeaf("split", "horizontal");
+        break;
+
+       case "":
+       default:
+        if (!import_obsidian8.Platform.isMobile) theLeaf = this.app.workspace.createLeafBySplit(parent, "horizontal", false); else theLeaf = this.app.workspace.getLeftLeaf(false);
+        break;
+      }
     }
     const title = tags.map((e => e.split("/").map((ee => renderSpecialTag(ee))).join("/"))).join(" ");
     await theLeaf.setViewState({
@@ -4617,6 +4675,12 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     new import_obsidian8.Setting(containerEl).setName("List files in a separated pane").addToggle((toggle => {
       toggle.setValue(this.plugin.settings.useMultiPaneList).onChange((async value => {
         this.plugin.settings.useMultiPaneList = value;
+        await this.plugin.saveSettings();
+      }));
+    }));
+    new import_obsidian8.Setting(containerEl).setName("Show list in").setDesc("This option applies to the newly opened list").addDropdown((dropdown => {
+      dropdown.addOptions(enumShowListIn).setValue(this.plugin.settings.showListIn).onChange((async value => {
+        this.plugin.settings.showListIn = value;
         await this.plugin.saveSettings();
       }));
     }));

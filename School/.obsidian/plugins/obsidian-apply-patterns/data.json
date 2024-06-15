@@ -1,0 +1,56 @@
+{
+  "patterns": [
+    {
+      "name": "Clean Up Text",
+      "rules": [
+        {
+          "from": "\\s+$",
+          "to": "",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "(\\r\\n)+|\\r+|\\n+",
+          "to": " ",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        },
+        {
+          "from": "([a-zžáàäæãééíóöőüűčñßðđŋħjĸłß])(-\\s{1})([a-zžáàäæãééíóöőüűčñßðđŋħjĸłß])",
+          "to": "$1$3",
+          "caseInsensitive": false,
+          "global": true,
+          "multiline": true,
+          "sticky": false,
+          "disabled": false
+        }
+      ],
+      "collapsed": false,
+      "cursorRegexStart": "$",
+      "cursorRegexEnd": "^"
+    }
+  ],
+  "filterString": "",
+  "commandFilterString": "",
+  "commands": [
+    {
+      "name": "Clean Up Text",
+      "icon": "search",
+      "patternFilter": "Clean Up Text",
+      "selection": true,
+      "lines": false,
+      "document": false,
+      "clipboard": false,
+      "clipboardLines": false
+    }
+  ],
+  "apiVersion": 6,
+  "defaultCursorRegexEnd": "^",
+  "defaultCursorRegexStart": "$"
+}

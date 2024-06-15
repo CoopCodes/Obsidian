@@ -147,6 +147,8 @@ return (
 Now that the customization for the monster is set up, we need to make a way to implement drag & drop of body parts from a list of body parts. 
 First we need to detect when the user is holding an item over an item in the `bodypart` list.
 
+-- DEPRECATED \ DECIDED NOT TO USE --
+
 This can be implemented by creating a `bodypart` component, that will be rendered in a list of all the body parts that the user can choose:
 
 ```tsx
@@ -221,6 +223,8 @@ const LockerRoom = () => {
   );
 };
 ```
+
+-- end comment --
 
 Now we need to figure out how to render each body part in the list, enabling the user to choose **different categories**, such as Body, arm, legs, etc. the planned UI can be seen below.
 ![[Pasted image 20231018220644.png]]

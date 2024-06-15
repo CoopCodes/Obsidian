@@ -8,19 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "edc8728ea4b1af71",
+            "id": "4f141b72ed622998",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Art - IA2.md",
+                "file": "Settings.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d477c1106e1eb5ef",
+            "id": "ae44ec00cd725951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sport & Rec IA3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5650924cfb94aaa7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English IA3 - Task Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9e39f338d13c645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English IA3 - Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0639b1efa3863b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sport & Rec IA5 - Final.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7da78dd9f549e367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI Setting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee6581e3dc0a561a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,109 +92,29 @@
             }
           },
           {
-            "id": "216a917b5f9a6326",
+            "id": "ea9bdf20c04250f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dream world content loading.md",
+                "file": "IA3 - Photography.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "05bba7af5e761526",
+            "id": "70fcab8fdc74a012",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Art - IA2 - Client Brief Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7dedfa5d574539ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Art - IA2 - Client Brief.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcc8931c3c6d5c8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prepare and serve non-alcoholic beverages.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Art IA3 - Photography - Task Sheet.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "d985831908507522",
-        "type": "split",
-        "children": [
-          {
-            "id": "f1f440ec1c85d8ff",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "95fb92cfee1268da",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dream world content loading.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1c185e29bb27d59d",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2024-03-25 15.00.51.excalidraw.md"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "4a90d4ab04e9c6c6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d5432f9f2a73ee39",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dream world content loading.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#art",
+                "query": "art ia3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,44 +153,27 @@
             }
           },
           {
-            "id": "67331fe518445943",
+            "id": "b783534bf49d7695",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "ab64f2f547c31994",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "b552c30d4a3957ce",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5c965c3453391e1d",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "8500e5e1d792588b",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "70768663bb583bdb",
@@ -226,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dream world content loading.md",
+                "file": "English IA3 - Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dream world content loading.md",
+                "file": "English IA3 - Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dream world content loading.md"
+                "file": "English IA3 - Planning.md"
               }
             }
           },
@@ -295,7 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
+    "width": 534.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -306,60 +269,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-wordy:Wordy view": false,
       "marp-slides:Show Slide Preview": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "copilot:Copilot Chat": false
     }
   },
-  "active": "216a917b5f9a6326",
+  "active": "b9e39f338d13c645",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-03-25 15.00.51.excalidraw.md",
-    "Dream world content loading.md",
-    "Prepare and serve non-alcoholic beverages.md",
-    "Pasted image 20240325221756.png",
-    "Pasted image 20240325221554.png",
+    "Settings.md",
+    "English IA3 - Task Sheet.md",
+    "English IA3 - Planning.md",
     "English IA2.md",
-    "Pasted image 20240325170451.png",
-    "Pasted Image 20240325150107_152.png",
-    "Untitled 5.md",
-    "Pasted image 20240325123103.png",
-    "Art - IA2 - Client Brief.md",
-    "Art - IA2 - Client Brief Analysis.md",
-    "Art - IA2.md",
-    "Cooper Fieldhouse - General Math IA1.md",
+    "Art IA3 - Photography.md",
+    "IA3 - Photography.md",
+    "Sport & Rec IA3.md",
+    "Excalidraw/Art IA3 - Photography - Task Sheet.excalidraw.md",
+    "IA3 Belonging.pdf",
+    "AI Setting.md",
+    "Pasted image 20240604094009.png",
+    "Aboriginal Timeline.md",
+    "Mailman Articles.md",
+    "7 Stages of Grieving.md",
+    "IA4 - Gym.md",
     "Sport & Rec IA5 - Final.md",
-    "Sport & Rec IA5 - Planning Log.md",
-    "Sport & Rec IA5 - Investigation.md",
-    "Testimonial.md",
-    "Math IA1 - Final.pdf",
-    "Excalidraw/Slamball Layout.md",
-    "School Captain Speech - Formal.md",
-    "School Captain Speech - Informal.md",
-    "Math IA1 - Planning.md",
-    "Encounter IA1.md",
-    "Australia Zoo.md",
-    "Pasted image 20240314230728.png",
-    "Pasted image 20240314225115.png",
-    "Pasted image 20240314224618.png",
-    "Pasted image 20240314224436.png",
-    "Pasted image 20240314224317.png",
-    "Untitled.canvas",
-    "Sport & Rec IA2.md",
-    "Sport and rec IA5.md",
-    "Untitled 6.md",
-    "A guide to Rocco.md",
-    "Mum Card.md",
+    "Excalidraw/Activity Area.excalidraw.md",
+    "copilot-conversations/Chat-2024_05_27-19_00_35.md",
+    "Presentaiotn.md",
+    "Goals.md",
+    "First Australian - Notes.md",
+    "Cooper Fieldhouse - General Math IA1.md",
+    "Untitled 8.md",
+    "Art - IA2.md",
+    "Art - IA1 Final.md",
+    "Art - IA2 - Client Brief.md",
+    "Hospitality To Do.md",
+    "Art IA2 - Poster.png",
+    "Front@4xaaaaaaaaa.png",
+    "Artboard 1@4xaaaaaaaaa.png",
     "IA2 Marketable Art.pdf",
-    "Math IA1 - Word Count testing.md",
+    "Pasted image 20240510224826.png",
+    "Pasted image 20240510224711.png",
+    "IA2 2024.pdf",
+    "Encounter IA1.md",
+    "Pasted image 20240501115000.png",
+    "Pasted Image 20240501114730_233.png",
+    "Pasted image 20240501112609.png",
+    "6ef40ae0-0483-43ae-bcda-715215c1d8d7.jpg",
+    "copilot-conversations",
+    "Math IA1 - Final.pdf",
+    "Untitled.canvas",
     "IA2 Marketable Art.pdf.crdownload",
     "Presentaiotn.pptx",
     "Presentaiotn.html",
     "~$Math IA1.xlsx",
-    "gm-ia1-2024-task sheet.pdf",
-    "Math IA1.xlsx",
-    "~ew Microsoft Excel Worksheet.tmp",
-    "New Microsoft Excel Worksheet.xlsx"
+    "gm-ia1-2024-task sheet.pdf"
   ]
 }

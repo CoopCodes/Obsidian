@@ -6,55 +6,74 @@
       {
         "id": "84062cac4745498f",
         "type": "tabs",
+        "dimension": 77.25470763131814,
         "children": [
-          {
-            "id": "96b9a7ff2e34d5ae",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "fce858d8e9caa075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CryptoFix UI/CryptoFix UI UX Project.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54f835c1cd3899b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cozy Corners Book Cafe - Client Brief.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbb2e2c4d4684583",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
           {
             "id": "5a7148513b5cc8cc",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "29ca16a68986e68f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client Work.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d33f5ca864dab7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruma Has It.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08f4dd388110c499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruma Has It - Client Brief.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b3a43d3270c68c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Client Brief Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3510b2abe8a3e852",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ruma Has It - SEO Campaign.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -71,6 +90,33 @@
           }
         ],
         "currentTab": 5
+      },
+      {
+        "id": "64ab72966c0172ac",
+        "type": "tabs",
+        "dimension": 22.745292368681866,
+        "children": [
+          {
+            "id": "df242671e87eddb3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "c6faedcb79d8ee52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cozy Corners Book Cafe - Client Brief.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "d822b4e043b9860e",
@@ -146,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dream world content loading.md",
+                "file": "Ruma Has It - SEO Campaign.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dream world content loading.md",
+                "file": "Ruma Has It - SEO Campaign.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,12 +243,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dream world content loading.md"
+                "file": "Ruma Has It - SEO Campaign.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -220,11 +265,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64f7c41008b3db96",
+  "active": "3510b2abe8a3e852",
   "lastOpenFiles": [
+    "Client Brief Template.md",
+    "Ruma Has It - SEO Campaign.md",
+    "Ruma Has It - Client Brief.md",
+    "Client Brief Template.docx",
+    "Ruma Has It - Client Brief - Copy.docx",
+    "~$ma Has It - Client Brief.docx",
+    "~WRL3503.tmp",
+    "~WRD3456.tmp",
+    "Ruma Has It - Client Brief.docx",
+    "Client Work.md",
+    "Cozy Corners Book Cafe - Client Brief.md",
+    "Ruma Has It.md",
     "Dream world content loading.md",
     "CryptoFix UI/CryptoFix UI UX Project.md",
-    "Cozy Corners Book Cafe - Client Brief.md",
     "Website Practice.md",
     "Design Idea Generator.md",
     "SEO.md",

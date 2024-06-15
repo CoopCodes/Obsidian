@@ -101,8 +101,10 @@ We are open to any additional suggestions or ideas that could enhance the overal
 ## Pages:
 ### Home Page
 
-#### Welcome to Yelyon Festival
-Join us for a life-changing experience of worship, music, and spiritual renewal at the Yelyon (Yahweh Elyon) Christian Music/Worship Festival. This three-day event is a celebration of our faith and the greatness of God, bringing together believers from all walks of life.
+#### Our Goal
+
+
+At Yelyon Festival, our goal is to create a unifying experience that celebrates our faith, renews our spirits, and deepens our relationship with God. We aim to provide an atmosphere of joy, worship, and spiritual growth, where attendees can encounter the transformative love of Christ and reignite their passion for Him.
 
 #### Festival Highlights
 - Powerful worship sessions led by renowned artists

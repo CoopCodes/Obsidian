@@ -1,6 +1,7 @@
 ---
 tags:
   - english
+  - classWork
 ---
 
 # Hidden figures
