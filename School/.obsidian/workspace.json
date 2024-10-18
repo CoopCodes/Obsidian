@@ -4,112 +4,194 @@
     "type": "split",
     "children": [
       {
-        "id": "745416fccb375a9c",
+        "id": "49edf51859ab0f94",
         "type": "tabs",
+        "dimension": 41.53750774953503,
         "children": [
           {
-            "id": "4f141b72ed622998",
+            "id": "4611007b1a23e0f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Settings.md",
+                "file": "Seasonal Metaphors - Burial Rights.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ae44ec00cd725951",
+            "id": "5e9261a841e4b969",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sport & Rec IA3.md",
+                "file": "Programming Project - Assessment 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5650924cfb94aaa7",
+            "id": "d470f5e61cc9f7c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English IA3 - Task Sheet.md",
+                "file": "Women - Burial rights.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b9e39f338d13c645",
+            "id": "c26ffcdbb8e462fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English IA3 - Planning.md",
+                "file": "My Systematic Theology - A Libertarian Universalist.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a0639b1efa3863b1",
+            "id": "1c533f6633706f85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sport & Rec IA5 - Final.md",
+                "file": "Art IA5 - Programming plan.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7da78dd9f549e367",
+            "id": "e2f857859630c1e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Setting.md",
+                "file": "Mock Exam.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ee6581e3dc0a561a",
+            "id": "eb346e214753e5c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English IA2.md",
+                "file": "Zoe Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea9bdf20c04250f4",
+            "id": "cf4faeaa31a587b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IA3 - Photography.md",
+                "file": "Phone Debate.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e80278060bee849",
+        "type": "tabs",
+        "dimension": 58.46249225046497,
+        "children": [
+          {
+            "id": "263ba14e736e0775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Second death - Baptized in the Lake of Fire (Refines Crucible).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "70fcab8fdc74a012",
+            "id": "56f1a45a2195b17c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Art IA3 - Photography - Task Sheet.excalidraw.md"
+                "file": "My Systematic Theology - A Libertarian Universalist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "674f77334833cff3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Project - Assessment 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cca8c85611c4dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Texts - Unit 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f895794c6562d5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Encounter IA1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e30e850d8232a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "God's Empathy - John 11.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "221ca7d58432c999",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Art IA4 - Scape.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -143,7 +225,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "art ia3",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 247.5
   },
   "right": {
     "id": "70768663bb583bdb",
@@ -189,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "English IA3 - Planning.md",
+                "file": "Seasonal Metaphors - Burial Rights.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +288,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "English IA3 - Planning.md",
+                "file": "Seasonal Metaphors - Burial Rights.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +311,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "English IA3 - Planning.md"
+                "file": "Seasonal Metaphors - Burial Rights.md"
               }
             }
           },
@@ -273,50 +355,89 @@
       "marp-slides:Show Slide Preview": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "enlightenment-obsidian:Cycle through Enlightenment modes (off, across all panes, or the active pane only)": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b9e39f338d13c645",
+  "floating": {
+    "id": "5d56fdca260b5826",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a6c7e07fa4f8326c",
+        "type": "window",
+        "children": [
+          {
+            "id": "1a3f79e6e63b02a9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0d52abf8307c1770",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "How to Nail Key Concepts in the Exam.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 960,
+        "y": 0,
+        "width": 960,
+        "height": 1032,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4611007b1a23e0f5",
   "lastOpenFiles": [
-    "Settings.md",
-    "English IA3 - Task Sheet.md",
-    "English IA3 - Planning.md",
-    "English IA2.md",
-    "Art IA3 - Photography.md",
-    "IA3 - Photography.md",
-    "Sport & Rec IA3.md",
-    "Excalidraw/Art IA3 - Photography - Task Sheet.excalidraw.md",
-    "IA3 Belonging.pdf",
-    "AI Setting.md",
-    "Pasted image 20240604094009.png",
-    "Aboriginal Timeline.md",
-    "Mailman Articles.md",
-    "7 Stages of Grieving.md",
-    "IA4 - Gym.md",
-    "Sport & Rec IA5 - Final.md",
-    "Excalidraw/Activity Area.excalidraw.md",
-    "copilot-conversations/Chat-2024_05_27-19_00_35.md",
-    "Presentaiotn.md",
-    "Goals.md",
-    "First Australian - Notes.md",
-    "Cooper Fieldhouse - General Math IA1.md",
-    "Untitled 8.md",
-    "Art - IA2.md",
-    "Art - IA1 Final.md",
-    "Art - IA2 - Client Brief.md",
-    "Hospitality To Do.md",
-    "Art IA2 - Poster.png",
-    "Front@4xaaaaaaaaa.png",
-    "Artboard 1@4xaaaaaaaaa.png",
-    "IA2 Marketable Art.pdf",
-    "Pasted image 20240510224826.png",
-    "Pasted image 20240510224711.png",
-    "IA2 2024.pdf",
+    "Texts - Unit 1.md",
+    "Mock Exam.md",
+    "Women - Burial rights.md",
+    "Phoenix Hours Manager - Kanban.md",
+    "e;.md",
+    "Homework - TODO.md",
+    "Programming Project - Assessment 2.md",
+    "Burial Rights Quotes.md",
+    "My Systematic Theology - A Libertarian Universalist.md",
+    "The Second death - Baptized in the Lake of Fire (Refines Crucible).md",
+    "Art IA4 - Scape.md",
+    "God's Empathy - John 11.md",
+    "How to Nail Key Concepts in the Exam.md",
+    "Art.md",
     "Encounter IA1.md",
-    "Pasted image 20240501115000.png",
-    "Pasted Image 20240501114730_233.png",
-    "Pasted image 20240501112609.png",
-    "6ef40ae0-0483-43ae-bcda-715215c1d8d7.jpg",
+    "Good Links - Universalism.md",
+    "Art IA5 - Programming plan.md",
+    "Zoe Questions.md",
+    "Phone Debate.md",
+    "Pasted image 20240909075407.png",
+    "Pasted image 20240906234715.png",
+    "Excalidraw/Design Mockups - Phoenix Hours Manager.md",
+    "Untitled 13.md",
+    "Pasted image 20240830161451.png",
+    "Untitled 12.md",
+    "Waterfall vs Agile Development.md",
+    "Pasted image 20240830114139.png",
+    "Pasted image 20240829231107.png",
+    "Pasted image 20240829231023.png",
+    "Pasted image 20240829230958.png",
+    "Pasted image 20240829230932.png",
+    "Pasted image 20240829230913.png",
+    "Pasted image 20240829230853.png",
+    "Personal Reflection - Encounter.md",
+    "Seasonal Metaphors - Burial Rights.md",
+    "Clay Violin Evaluation - Art IA4.md",
+    "IA3 Belonging.pdf",
+    "IA2 Marketable Art.pdf",
+    "IA2 2024.pdf",
     "copilot-conversations",
     "Math IA1 - Final.pdf",
     "Untitled.canvas",

@@ -25,5 +25,10 @@
   "code-emitter",
   "obsidian-text-format",
   "obsidian-apply-patterns",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "enlightenment-obsidian",
+  "automatic-table-of-contents",
+  "floating-toc",
+  "obsidian-kanban",
+  "obsidian-prozen"
 ]

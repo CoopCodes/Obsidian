@@ -6,7 +6,7 @@
       {
         "id": "84062cac4745498f",
         "type": "tabs",
-        "dimension": 77.25470763131814,
+        "dimension": 13.609467455621305,
         "children": [
           {
             "id": "5a7148513b5cc8cc",
@@ -68,12 +68,8 @@
             "id": "3510b2abe8a3e852",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ruma Has It - SEO Campaign.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -94,7 +90,7 @@
       {
         "id": "64ab72966c0172ac",
         "type": "tabs",
-        "dimension": 22.745292368681866,
+        "dimension": 86.3905325443787,
         "children": [
           {
             "id": "df242671e87eddb3",
@@ -191,7 +187,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ruma Has It - SEO Campaign.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +203,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ruma Has It - SEO Campaign.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,9 +236,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Ruma Has It - SEO Campaign.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -265,10 +257,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3510b2abe8a3e852",
+  "active": "df242671e87eddb3",
   "lastOpenFiles": [
-    "Client Brief Template.md",
     "Ruma Has It - SEO Campaign.md",
+    "Client Brief Template.md",
     "Ruma Has It - Client Brief.md",
     "Client Brief Template.docx",
     "Ruma Has It - Client Brief - Copy.docx",

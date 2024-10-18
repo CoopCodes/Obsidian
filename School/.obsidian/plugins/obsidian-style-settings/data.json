@@ -11,5 +11,10 @@
   "Editor@@h5-weight": 600,
   "Editor@@h5-color-select": "h5-color-default",
   "Editor@@seamless-embeds": true,
-  "Editor@@list-indent": "1.5vw"
+  "Editor@@list-indent": "1.5vw",
+  "Editor@@h6-size": ".95em",
+  "floating-toc-styles@@toggle-floating-toc-header-color": false,
+  "floating-toc-styles@@enable-heading-nowrap": true,
+  "floating-toc-styles@@floating-toc-position": 32,
+  "floating-toc-styles@@indicator-bar-position": 0
 }

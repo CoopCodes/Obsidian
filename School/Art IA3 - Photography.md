@@ -18,14 +18,21 @@ ___
 
 # Ideas
 1. Tree - Humans belong to nature
+![[sergei-a--heLWtuAN3c-unsplash.jpg|700]]
 
 2. Dirt - Humans belong to the ground
+ ![[tejasvi-ganjoo-f1p5tnQjPdM-unsplash.jpg|400]]
 
-3. Self - Humans belong to self
+3. Self - Humans belong to the void
+![[Pasted image 20240716113743.png|400]]
 
 4. Sun - Humans belong with God
+![[davide-cantelli-H3giJcTw__w-unsplash.jpg|400]]
 
 5. Fire - Humans belong in Hell
+![[christopher-burns-gyrrWzwqm5Y-unsplash.jpg|400]]
+
+
 
 1. Atheism
 2. Christianity
